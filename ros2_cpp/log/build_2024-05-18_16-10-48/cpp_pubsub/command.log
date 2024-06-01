@@ -1,0 +1,2 @@
+Invoking command in '/home/sameer/cpp_files/ros2_cpp/build/cpp_pubsub': CMAKE_PREFIX_PATH=/home/sameer/ros2_ws_2/install/cpp_pubsub:/home/sameer/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/sameer/cpp_files/ros2_cpp/build/cpp_pubsub -- -j4 -l4
+Invoked command in '/home/sameer/cpp_files/ros2_cpp/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=/home/sameer/ros2_ws_2/install/cpp_pubsub:/home/sameer/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/sameer/cpp_files/ros2_cpp/build/cpp_pubsub -- -j4 -l4

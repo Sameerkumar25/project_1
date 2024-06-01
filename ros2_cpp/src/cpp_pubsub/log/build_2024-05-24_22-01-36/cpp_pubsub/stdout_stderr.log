@@ -1,0 +1,11 @@
+[ 44%] Built target gtest_main
+[ 44%] Built target gtest
+[35m[1mConsolidate compiler generated dependencies of target pubsub_test[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/pubsub_test.dir/src/single_thread_spinner.cpp.o[0m
+[01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/single_thread_spinner.cpp:[m[K In member function ‘[01m[Kbool cpp_pubsub::SingleThreadSpinner::spin_some_all_nodes()[m[K’:
+[01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/single_thread_spinner.cpp:122:50:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+  122 |         void SingleThreadSpinner::spin_all_nodes_[01;31m[K([m[K)
+      |                                                  [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/pubsub_test.dir/build.make:118: CMakeFiles/pubsub_test.dir/src/single_thread_spinner.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:156: CMakeFiles/pubsub_test.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

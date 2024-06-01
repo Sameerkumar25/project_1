@@ -1,0 +1,13 @@
+[0.016s] Invoking command in '/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/build/cpp_pubsub': CMAKE_PREFIX_PATH=/home/sameer/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/build/cpp_pubsub -- -j4 -l4
+[0.117s] [ 22%] Built target gtest_main
+[0.118s] [ 44%] Built target gtest
+[0.148s] [35m[1mConsolidate compiler generated dependencies of target pubsub_test[0m
+[0.199s] [ 55%] [32mBuilding CXX object CMakeFiles/pubsub_test.dir/src/single_thread_spinner.cpp.o[0m
+[0.216s] [01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/single_thread_spinner.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Ksingle_thread_spinner.hpp: No such file or directory
+[0.217s]     1 | #include [01;31m[K"single_thread_spinner.hpp"[m[K
+[0.217s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.217s] compilation terminated.
+[0.219s] gmake[2]: *** [CMakeFiles/pubsub_test.dir/build.make:118: CMakeFiles/pubsub_test.dir/src/single_thread_spinner.cpp.o] Error 1
+[0.219s] gmake[1]: *** [CMakeFiles/Makefile2:156: CMakeFiles/pubsub_test.dir/all] Error 2
+[0.219s] gmake: *** [Makefile:146: all] Error 2
+[0.223s] Invoked command in '/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=/home/sameer/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/build/cpp_pubsub -- -j4 -l4

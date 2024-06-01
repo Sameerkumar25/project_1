@@ -1,0 +1,121 @@
+[0.211s] Invoking command in '/home/sameer/cpp_files/ros2_cpp/build/cpp_pubsub': CMAKE_PREFIX_PATH=/home/sameer/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/sameer/cpp_files/ros2_cpp/install/cpp_pubsub
+[2.968s] -- The C compiler identification is GNU 11.4.0
+[3.443s] -- The CXX compiler identification is GNU 11.4.0
+[3.489s] -- Detecting C compiler ABI info
+[3.800s] -- Detecting C compiler ABI info - done
+[3.828s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.830s] -- Detecting C compile features
+[3.835s] -- Detecting C compile features - done
+[3.846s] -- Detecting CXX compiler ABI info
+[4.137s] -- Detecting CXX compiler ABI info - done
+[4.163s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.164s] -- Detecting CXX compile features
+[4.165s] -- Detecting CXX compile features - done
+[4.323s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.907s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[5.482s] -- Found lifecycle_msgs: 1.2.1 (/opt/ros/humble/share/lifecycle_msgs/cmake)
+[5.811s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[5.830s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.927s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[6.022s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.376s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.490s] -- Found rclcpp_lifecycle: 16.0.8 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[7.141s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[7.157s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[7.929s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[8.225s] -- Found FastRTPS: /opt/ros/humble/include  
+[8.329s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.439s] -- Looking for pthread.h
+[8.757s] -- Looking for pthread.h - found
+[8.757s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.027s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[9.030s] -- Found Threads: TRUE  
+[10.229s] -- Found rclcpp_action: 16.0.8 (/opt/ros/humble/share/rclcpp_action/cmake)
+[10.531s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[10.685s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[10.848s] -- Found tf2_ros: 0.25.6 (/opt/ros/humble/share/tf2_ros/cmake)
+[11.654s] -- Found tf2_geometry_msgs: 0.25.6 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[12.031s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[12.036s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[12.037s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[12.085s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[12.307s] -- Found ament_cmake_gtest: 1.3.8 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[12.370s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[12.699s] -- Configuring done
+[13.006s] -- Generating done
+[13.025s] -- Build files have been written to: /home/sameer/cpp_files/ros2_cpp/build/cpp_pubsub
+[13.087s] Invoked command in '/home/sameer/cpp_files/ros2_cpp/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/home/sameer/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/sameer/cpp_files/ros2_cpp/install/cpp_pubsub
+[13.093s] Invoking command in '/home/sameer/cpp_files/ros2_cpp/build/cpp_pubsub': CMAKE_PREFIX_PATH=/home/sameer/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/sameer/cpp_files/ros2_cpp/build/cpp_pubsub -- -j4 -l4
+[13.227s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[13.258s] [ 22%] Built target gtest_main
+[13.300s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[13.335s] [ 44%] Built target gtest
+[13.383s] [35m[1mConsolidate compiler generated dependencies of target pubsub_test[0m
+[13.498s] [ 55%] [32mBuilding CXX object CMakeFiles/pubsub_test.dir/test/pubsub_test.cpp.o[0m
+[21.565s] In file included from [01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/test/pubsub_test.cpp:4[m[K:
+[21.566s] [01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/include/cpp_pubsub/single_thread_spinner.hpp:39:49:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kstd::atomic<bool> cpp_pubsub::SingleThreadSpinner::cancel_spin_called_[m[K’
+[21.566s]    39 |         std::atomic<bool> cancel_spin_called_ = [01;31m[Kfalse[m[K;
+[21.566s]       |                                                 [01;31m[K^~~~~[m[K
+[21.566s] [01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/include/cpp_pubsub/single_thread_spinner.hpp:30:27:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kstd::atomic<bool> cpp_pubsub::SingleThreadSpinner::cancel_spin_called_[m[K’
+[21.567s]    30 |         std::atomic<bool> [01;36m[Kcancel_spin_called_[m[K = false;
+[21.567s]       |                           [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[22.629s] [01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/test/pubsub_test.cpp:[m[K In member function ‘[01m[Kvirtual void PubSubCommunication_pub_sub_communication_Test::TestBody()[m[K’:
+[22.629s] [01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/test/pubsub_test.cpp:28:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::shared_ptr<cpp_pubsub::SingleThreadSpinner>[m[K’ has no member named ‘[01m[Kadd_node[m[K’
+[22.629s]    28 |     spinner.[01;31m[Kadd_node[m[K(pub_node->get_node_base_interface());
+[22.630s]       |             [01;31m[K^~~~~~~~[m[K
+[22.630s] [01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/test/pubsub_test.cpp:29:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::shared_ptr<cpp_pubsub::SingleThreadSpinner>[m[K’ has no member named ‘[01m[Kadd_node[m[K’
+[22.630s]    29 |     spinner.[01;31m[Kadd_node[m[K(sub_node->get_node_base_interface());
+[22.631s]       |             [01;31m[K^~~~~~~~[m[K
+[22.631s] [01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/test/pubsub_test.cpp:31:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::shared_ptr<cpp_pubsub::SingleThreadSpinner>[m[K’ has no member named ‘[01m[Kspin_some_all_nodes[m[K’
+[22.631s]    31 |     spinner.[01;31m[Kspin_some_all_nodes[m[K();
+[22.631s]       |             [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[22.652s] In file included from [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest.h:62[m[K,
+[22.652s]                  from [01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/test/pubsub_test.cpp:6[m[K:
+[22.653s] [01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/test/pubsub_test.cpp:34:17:[m[K [01;31m[Kerror: [m[K‘[01m[Ksub_pub[m[K’ was not declared in this scope
+[22.653s]    34 |     EXPECT_TRUE([01;31m[Ksub_pub[m[K->has_data_been_received());
+[22.653s]       |                 [01;31m[K^~~~~~~[m[K
+[22.658s] [01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/test/pubsub_test.cpp:[m[K In member function ‘[01m[Kvirtual void PubSubCommunication_check_received_msg_Test::TestBody()[m[K’:
+[22.658s] [01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/test/pubsub_test.cpp:58:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::shared_ptr<cpp_pubsub::SingleThreadSpinner>[m[K’ has no member named ‘[01m[Kadd_node[m[K’
+[22.660s]    58 |     spinner.[01;31m[Kadd_node[m[K(pub_node->get_node_base_interface());
+[22.660s]       |             [01;31m[K^~~~~~~~[m[K
+[22.660s] [01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/test/pubsub_test.cpp:59:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::shared_ptr<cpp_pubsub::SingleThreadSpinner>[m[K’ has no member named ‘[01m[Kadd_node[m[K’
+[22.660s]    59 |     spinner.[01;31m[Kadd_node[m[K(sub_node->get_node_base_interface());
+[22.661s]       |             [01;31m[K^~~~~~~~[m[K
+[22.661s] [01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/test/pubsub_test.cpp:61:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::shared_ptr<cpp_pubsub::SingleThreadSpinner>[m[K’ has no member named ‘[01m[Kspin_some_all_nodes[m[K’
+[22.661s]    61 |     spinner.[01;31m[Kspin_some_all_nodes[m[K();
+[22.661s]       |             [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[22.679s] In file included from [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest.h:62[m[K,
+[22.679s]                  from [01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/test/pubsub_test.cpp:6[m[K:
+[22.679s] [01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/test/pubsub_test.cpp:64:17:[m[K [01;31m[Kerror: [m[K‘[01m[Ksub_pub[m[K’ was not declared in this scope
+[22.680s]    64 |     EXPECT_TRUE([01;31m[Ksub_pub[m[K->has_data_been_received());
+[22.680s]       |                 [01;31m[K^~~~~~~[m[K
+[22.698s] In file included from [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest.h:375[m[K,
+[22.698s]                  from [01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/test/pubsub_test.cpp:6[m[K:
+[22.698s] [01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/test/pubsub_test.cpp:66:18:[m[K [01;31m[Kerror: [m[K‘[01m[Ksub_pub[m[K’ was not declared in this scope
+[22.698s]    66 |     EXPECT_STREQ([01;31m[Ksub_pub[m[K->get_received_msg().data.c_str(),"Hello, World! 0");
+[22.699s]       |                  [01;31m[K^~~~~~~[m[K
+[22.699s] In file included from [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest.h:62[m[K,
+[22.699s]                  from [01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/test/pubsub_test.cpp:6[m[K:
+[22.700s] [01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/test/pubsub_test.cpp:[m[K At global scope:
+[22.700s] [01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/test/pubsub_test.cpp:70:6:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kclass PubSubCommunication_check_received_msg_Test[m[K’
+[22.700s]    70 | TEST([01;31m[KPubSubCommunication[m[K,check_received_msg)
+[22.700s]       |      [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[22.700s] [01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/test/pubsub_test.cpp:40:6:[m[K [01;36m[Knote: [m[Kprevious definition of ‘[01m[Kclass PubSubCommunication_check_received_msg_Test[m[K’
+[22.700s]    40 | TEST([01;36m[KPubSubCommunication[m[K,check_received_msg)
+[22.701s]       |      [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[22.701s] [01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/test/pubsub_test.cpp:70:6:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Ktesting::TestInfo* const PubSubCommunication_check_received_msg_Test::test_info_[m[K’
+[22.701s]    70 | TEST([01;31m[KPubSubCommunication[m[K,check_received_msg)
+[22.701s]       |      [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[22.701s] [01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/test/pubsub_test.cpp:40:6:[m[K [01;36m[Knote: [m[K‘[01m[Ktesting::TestInfo* const PubSubCommunication_check_received_msg_Test::test_info_[m[K’ previously declared here
+[22.702s]    40 | TEST([01;36m[KPubSubCommunication[m[K,check_received_msg)
+[22.702s]       |      [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[22.702s] [01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/test/pubsub_test.cpp:70:6:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kvoid PubSubCommunication_check_received_msg_Test::TestBody()[m[K’
+[22.703s]    70 | TEST([01;31m[KPubSubCommunication[m[K,check_received_msg)
+[22.703s]       |      [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[22.704s] [01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/test/pubsub_test.cpp:40:6:[m[K [01;36m[Knote: [m[K‘[01m[Kvirtual void PubSubCommunication_check_received_msg_Test::TestBody()[m[K’ previously defined here
+[22.704s]    40 | TEST([01;36m[KPubSubCommunication[m[K,check_received_msg)
+[22.705s]       |      [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[24.351s] gmake[2]: *** [CMakeFiles/pubsub_test.dir/build.make:76: CMakeFiles/pubsub_test.dir/test/pubsub_test.cpp.o] Error 1
+[24.351s] gmake[1]: *** [CMakeFiles/Makefile2:156: CMakeFiles/pubsub_test.dir/all] Error 2
+[24.352s] gmake: *** [Makefile:146: all] Error 2
+[24.356s] Invoked command in '/home/sameer/cpp_files/ros2_cpp/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=/home/sameer/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/sameer/cpp_files/ros2_cpp/build/cpp_pubsub -- -j4 -l4

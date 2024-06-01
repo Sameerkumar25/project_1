@@ -1,0 +1,31 @@
+[0.020s] Invoking command in '/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/build/cpp_pubsub': CMAKE_PREFIX_PATH=/home/sameer/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/build/cpp_pubsub -- -j4 -l4
+[0.120s] [ 22%] Built target gtest_main
+[0.120s] [ 44%] Built target gtest
+[0.150s] [35m[1mConsolidate compiler generated dependencies of target pubsub_test[0m
+[0.201s] [ 55%] [32mBuilding CXX object CMakeFiles/pubsub_test.dir/src/subscriber_member_function.cpp.o[0m
+[0.202s] [ 66%] [32mBuilding CXX object CMakeFiles/pubsub_test.dir/src/single_thread_spinner.cpp.o[0m
+[4.470s] [01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/single_thread_spinner.cpp:[m[K In member function ‘[01m[Kbool cpp_pubsub::SingleThreadSpinner::cancel_all_spin()[m[K’:
+[4.470s] [01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/single_thread_spinner.cpp:79:9:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kwhile[m[K’ clause does not guard... [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmisleading-indentation-Wmisleading-indentation]8;;[m[K]
+[4.470s]    79 |         [01;35m[Kwhile[m[K(are_all_nodes_spinning_.load())
+[4.471s]       |         [01;35m[K^~~~~[m[K
+[4.471s] [01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/single_thread_spinner.cpp:82:13:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kwhile[m[K’
+[4.471s]    82 |             [01;36m[Kif[m[K(spinner_thread_)
+[4.471s]       |             [01;36m[K^~[m[K
+[4.473s] [01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/single_thread_spinner.cpp:[m[K In member function ‘[01m[Kbool cpp_pubsub::SingleThreadSpinner::spin_some_all_nodes()[m[K’:
+[4.473s] [01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/single_thread_spinner.cpp:120:50:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+[4.473s]   120 |         void SingleThreadSpinner::spin_all_nodes_[01;31m[K([m[K)
+[4.473s]       |                                                  [01;31m[K^[m[K
+[4.613s] [01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/subscriber_member_function.cpp:43:24:[m[K [01;31m[Kerror: [m[K‘[01m[KMinimalSubcriber[m[K’ has not been declared
+[4.613s]    43 |  std_msgs::msg::String [01;31m[KMinimalSubcriber[m[K::get_received_msg()
+[4.613s]       |                        [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[4.620s] [01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/subscriber_member_function.cpp:[m[K In function ‘[01m[Kstd_msgs::msg::String cpp_pubsub::get_received_msg()[m[K’:
+[4.621s] [01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/subscriber_member_function.cpp:45:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kreceived_msg_[m[K’ was not declared in this scope; did you mean ‘[01m[Kget_received_msg[m[K’?
+[4.621s]    45 |     return [01;31m[Kreceived_msg_[m[K;
+[4.621s]       |            [01;31m[K^~~~~~~~~~~~~[m[K
+[4.621s]       |            [32m[Kget_received_msg[m[K
+[5.255s] gmake[2]: *** [CMakeFiles/pubsub_test.dir/build.make:118: CMakeFiles/pubsub_test.dir/src/single_thread_spinner.cpp.o] Error 1
+[5.255s] gmake[2]: *** Waiting for unfinished jobs....
+[8.451s] gmake[2]: *** [CMakeFiles/pubsub_test.dir/build.make:104: CMakeFiles/pubsub_test.dir/src/subscriber_member_function.cpp.o] Error 1
+[8.451s] gmake[1]: *** [CMakeFiles/Makefile2:156: CMakeFiles/pubsub_test.dir/all] Error 2
+[8.452s] gmake: *** [Makefile:146: all] Error 2
+[8.456s] Invoked command in '/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=/home/sameer/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/build/cpp_pubsub -- -j4 -l4

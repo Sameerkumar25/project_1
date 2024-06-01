@@ -1,0 +1,13 @@
+[0.022s] Invoking command in '/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/build/cpp_pubsub': CMAKE_PREFIX_PATH=/home/sameer/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/build/cpp_pubsub -- -j4 -l4
+[0.122s] [ 22%] Built target gtest
+[0.123s] [ 44%] Built target gtest_main
+[0.152s] [35m[1mConsolidate compiler generated dependencies of target pubsub_test[0m
+[0.203s] [ 55%] [32mBuilding CXX object CMakeFiles/pubsub_test.dir/src/single_thread_spinner.cpp.o[0m
+[4.322s] [01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/single_thread_spinner.cpp:[m[K In member function ‘[01m[Kbool cpp_pubsub::SingleThreadSpinner::spin_some_all_nodes()[m[K’:
+[4.323s] [01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/single_thread_spinner.cpp:124:50:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+[4.323s]   124 |         void SingleThreadSpinner::spin_all_nodes_[01;31m[K([m[K)
+[4.323s]       |                                                  [01;31m[K^[m[K
+[5.077s] gmake[2]: *** [CMakeFiles/pubsub_test.dir/build.make:118: CMakeFiles/pubsub_test.dir/src/single_thread_spinner.cpp.o] Error 1
+[5.078s] gmake[1]: *** [CMakeFiles/Makefile2:156: CMakeFiles/pubsub_test.dir/all] Error 2
+[5.078s] gmake: *** [Makefile:146: all] Error 2
+[5.082s] Invoked command in '/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=/home/sameer/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/build/cpp_pubsub -- -j4 -l4

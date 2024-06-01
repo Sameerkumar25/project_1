@@ -1,0 +1,27 @@
+[ 22%] Built target gtest_main
+[ 44%] Built target gtest
+[35m[1mConsolidate compiler generated dependencies of target pubsub_test[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/pubsub_test.dir/test/pubsub_test.cpp.o[0m
+In file included from [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest.h:62[m[K,
+                 from [01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/test/pubsub_test.cpp:6[m[K:
+[01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/test/pubsub_test.cpp:37:6:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kclass PubSubCommunication_check_msg_range_Test[m[K’
+   37 | TEST([01;31m[KPubSubCommunication[m[K,check_msg_range)
+      |      [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/test/pubsub_test.cpp:9:6:[m[K [01;36m[Knote: [m[Kprevious definition of ‘[01m[Kclass PubSubCommunication_check_msg_range_Test[m[K’
+    9 | TEST([01;36m[KPubSubCommunication[m[K,check_msg_range)
+      |      [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/test/pubsub_test.cpp:37:6:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Ktesting::TestInfo* const PubSubCommunication_check_msg_range_Test::test_info_[m[K’
+   37 | TEST([01;31m[KPubSubCommunication[m[K,check_msg_range)
+      |      [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/test/pubsub_test.cpp:9:6:[m[K [01;36m[Knote: [m[K‘[01m[Ktesting::TestInfo* const PubSubCommunication_check_msg_range_Test::test_info_[m[K’ previously declared here
+    9 | TEST([01;36m[KPubSubCommunication[m[K,check_msg_range)
+      |      [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/test/pubsub_test.cpp:37:6:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kvoid PubSubCommunication_check_msg_range_Test::TestBody()[m[K’
+   37 | TEST([01;31m[KPubSubCommunication[m[K,check_msg_range)
+      |      [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/test/pubsub_test.cpp:9:6:[m[K [01;36m[Knote: [m[K‘[01m[Kvirtual void PubSubCommunication_check_msg_range_Test::TestBody()[m[K’ previously defined here
+    9 | TEST([01;36m[KPubSubCommunication[m[K,check_msg_range)
+      |      [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/pubsub_test.dir/build.make:76: CMakeFiles/pubsub_test.dir/test/pubsub_test.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:156: CMakeFiles/pubsub_test.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

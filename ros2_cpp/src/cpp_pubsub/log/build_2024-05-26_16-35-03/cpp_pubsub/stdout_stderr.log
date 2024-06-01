@@ -1,0 +1,27 @@
+[ 22%] Built target gtest_main
+[ 44%] Built target gtest
+[ 55%] [32mBuilding CXX object CMakeFiles/pubsub_test.dir/src/single_thread_spinner.cpp.o[0m
+[01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/single_thread_spinner.cpp:[m[K In member function ‘[01m[Kbool cpp_pubsub::SingleThreadSpinner::add_node(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr)[m[K’:
+[01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/single_thread_spinner.cpp:13:5:[m[K [01;31m[Kerror: [m[K‘[01m[Knodes_[m[K’ was not declared in this scope; did you mean ‘[01m[Knode[m[K’?
+   13 |     [01;31m[Knodes_[m[K.push_back(node);
+      |     [01;31m[K^~~~~~[m[K
+      |     [32m[Knode[m[K
+[01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/single_thread_spinner.cpp:[m[K In member function ‘[01m[Kbool cpp_pubsub::SingleThreadSpinner::spin_some_all_nodes()[m[K’:
+[01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/single_thread_spinner.cpp:18:9:[m[K [01;31m[Kerror: [m[K‘[01m[Knodes_[m[K’ was not declared in this scope
+   18 |     if ([01;31m[Knodes_[m[K.empty()) {
+      |         [01;31m[K^~~~~~[m[K
+[01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/single_thread_spinner.cpp:22:23:[m[K [01;31m[Kerror: [m[K‘[01m[Knodes_[m[K’ was not declared in this scope; did you mean ‘[01m[Knode[m[K’?
+   22 |     for (auto &node : [01;31m[Knodes_[m[K) {
+      |                       [01;31m[K^~~~~~[m[K
+      |                       [32m[Knode[m[K
+[01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/single_thread_spinner.cpp:23:28:[m[K [01;31m[Kerror: [m[K‘[01m[KSingleThreadExecutor[m[K’ is not a member of ‘[01m[Krclcpp::executors[m[K’; did you mean ‘[01m[KSingleThreadedExecutor[m[K’?
+   23 |         rclcpp::executors::[01;31m[KSingleThreadExecutor[m[K executor;
+      |                            [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+      |                            [32m[KSingleThreadedExecutor[m[K
+[01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/single_thread_spinner.cpp:24:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kexecutor[m[K’ was not declared in this scope; did you mean ‘[01m[KExecutor[m[K’?
+   24 |         [01;31m[Kexecutor[m[K.add_node(node);
+      |         [01;31m[K^~~~~~~~[m[K
+      |         [32m[KExecutor[m[K
+gmake[2]: *** [CMakeFiles/pubsub_test.dir/build.make:118: CMakeFiles/pubsub_test.dir/src/single_thread_spinner.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:156: CMakeFiles/pubsub_test.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

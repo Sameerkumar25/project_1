@@ -1,0 +1,10 @@
+In file included from [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest.h:375[m[K,
+                 from [01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/test/pubsub_test.cpp:6[m[K:
+[01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/test/pubsub_test.cpp:[m[K In member function ‘[01m[Kvirtual void PubSubCommunication_check_received_msg_Test::TestBody()[m[K’:
+[01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/test/pubsub_test.cpp:82:77:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[K_CharT* std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::data() [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+   82 |     EXPECT_STREQ(sub_node->get_received_msg().data.c_str(),[01;31m[Kpub_node->v_data.data[m[K.c_str());
+      |                                                            [01;31m[K~~~~~~~~~~~~~~~~~^~~~[m[K
+gmake[2]: *** [CMakeFiles/pubsub_test.dir/build.make:76: CMakeFiles/pubsub_test.dir/test/pubsub_test.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:156: CMakeFiles/pubsub_test.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

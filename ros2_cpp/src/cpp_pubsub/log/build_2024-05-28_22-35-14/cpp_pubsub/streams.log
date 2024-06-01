@@ -1,0 +1,32 @@
+[0.018s] Invoking command in '/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/build/cpp_pubsub': CMAKE_PREFIX_PATH=/home/sameer/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/build/cpp_pubsub -- -j4 -l4
+[0.116s] [ 22%] Built target gtest_main
+[0.117s] [ 44%] Built target gtest
+[0.145s] [35m[1mConsolidate compiler generated dependencies of target pubsub_test[0m
+[0.195s] [ 55%] [32mBuilding CXX object CMakeFiles/pubsub_test.dir/test/pubsub_test.cpp.o[0m
+[6.194s] [ 66%] [32m[1mLinking CXX executable pubsub_test[0m
+[7.318s] [100%] Built target pubsub_test
+[7.338s] Invoked command in '/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/home/sameer/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/build/cpp_pubsub -- -j4 -l4
+[7.418s] Invoking command in '/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/build/cpp_pubsub': CMAKE_PREFIX_PATH=/home/sameer/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/build/cpp_pubsub
+[7.431s] -- Install configuration: ""
+[7.431s] -- Up-to-date: /home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/install/cpp_pubsub/include/cpp_pubsub
+[7.432s] -- Up-to-date: /home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/install/cpp_pubsub/include/cpp_pubsub/publisher_member_function.hpp
+[7.432s] -- Up-to-date: /home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/install/cpp_pubsub/include/cpp_pubsub/single_thread_spinner.hpp
+[7.432s] -- Up-to-date: /home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/install/cpp_pubsub/include/cpp_pubsub/subscriber_member_function.hpp
+[7.432s] -- Installing: /home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/install/cpp_pubsub/lib/cpp_pubsub/pubsub_test
+[7.443s] -- Set runtime path of "/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/install/cpp_pubsub/lib/cpp_pubsub/pubsub_test" to ""
+[7.443s] -- Up-to-date: /home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[7.444s] -- Up-to-date: /home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[7.444s] -- Up-to-date: /home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[7.444s] -- Up-to-date: /home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[7.444s] -- Up-to-date: /home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[7.445s] -- Up-to-date: /home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[7.445s] -- Up-to-date: /home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[7.445s] -- Up-to-date: /home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[7.445s] -- Up-to-date: /home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[7.446s] -- Up-to-date: /home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[7.446s] -- Installing: /home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[7.446s] -- Up-to-date: /home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[7.446s] -- Up-to-date: /home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[7.446s] -- Up-to-date: /home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[7.447s] -- Up-to-date: /home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[7.449s] Invoked command in '/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/home/sameer/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/build/cpp_pubsub

@@ -1,0 +1,509 @@
+[0.000000] (-) TimerEvent: {}
+[0.000299] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict()}
+[0.000397] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.067814] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.069135] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub', '-DCMAKE_INSTALL_PREFIX=/home/sameer/cpp_files/ros2_cpp/install/cpp_pubsub'], 'cwd': '/home/sameer/cpp_files/ros2_cpp/build/cpp_pubsub', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'sameer'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sameer'), ('OLDPWD', '/home/sameer/cpp_files'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1413'), ('SYSTEMD_EXEC_PID', '1731'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '8857'), ('COLCON_PREFIX_PATH', '/home/sameer/ros2_ws_2/install:/home/sameer/demo/ros2_ws_1/install:/home/sameer/demo/ros2_ws/src/ros2_project/install:/home/sameer/demo/ros2_ws/install:/home/sameer/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'sameer'), ('JOURNAL_STREAM', '8:31049'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sameer'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/sameer/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sameer:@/tmp/.ICE-unix/1708,unix/sameer:/tmp/.ICE-unix/1708'), ('INVOCATION_ID', 'ce508244572f4701af90d68947f86d19'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sameer/ros2_ws_2/install/cpp_pubsub:/home/sameer/ros2_ws/install/my_robot_controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:a251ce44-703d-4eca-9edc-2b445ae36f45'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sameer/cpp_files/ros2_cpp/build/cpp_pubsub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sameer/ros2_ws_2/install/cpp_pubsub/lib/python3.10/site-packages:/home/sameer/demo/ros2_ws_1/install/ros2_project/lib/python3.10/site-packages:/home/sameer/demo/ros2_ws/src/ros2_project/install/ros2_project/lib/python3.10/site-packages:/home/sameer/demo/ros2_ws/install/ros2_project/lib/python3.10/site-packages:/home/sameer/ros2_ws/build/my_robot_controller:/home/sameer/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sameer/ros2_ws_2/install/cpp_pubsub:/home/sameer/ros2_ws/install/my_robot_controller:/opt/ros/humble')]), 'shell': False}
+[0.098661] (-) TimerEvent: {}
+[0.199119] (-) TimerEvent: {}
+[0.299540] (-) TimerEvent: {}
+[0.400019] (-) TimerEvent: {}
+[0.500478] (-) TimerEvent: {}
+[0.600902] (-) TimerEvent: {}
+[0.701356] (-) TimerEvent: {}
+[0.801976] (-) TimerEvent: {}
+[0.902618] (-) TimerEvent: {}
+[1.002953] (-) TimerEvent: {}
+[1.103346] (-) TimerEvent: {}
+[1.203755] (-) TimerEvent: {}
+[1.304232] (-) TimerEvent: {}
+[1.404688] (-) TimerEvent: {}
+[1.416343] (cpp_pubsub) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.504848] (-) TimerEvent: {}
+[1.605373] (-) TimerEvent: {}
+[1.705824] (-) TimerEvent: {}
+[1.806243] (-) TimerEvent: {}
+[1.906688] (-) TimerEvent: {}
+[2.007145] (-) TimerEvent: {}
+[2.107609] (-) TimerEvent: {}
+[2.196914] (cpp_pubsub) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.207764] (-) TimerEvent: {}
+[2.308403] (-) TimerEvent: {}
+[2.398929] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.408528] (-) TimerEvent: {}
+[2.508963] (-) TimerEvent: {}
+[2.609422] (-) TimerEvent: {}
+[2.702154] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.709539] (-) TimerEvent: {}
+[2.715747] (cpp_pubsub) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.716935] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.741095] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.749619] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.809697] (-) TimerEvent: {}
+[2.910193] (-) TimerEvent: {}
+[2.947356] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.002986] (cpp_pubsub) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.003814] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.005148] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.010314] (-) TimerEvent: {}
+[3.110770] (-) TimerEvent: {}
+[3.118814] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.210894] (-) TimerEvent: {}
+[3.311339] (-) TimerEvent: {}
+[3.411702] (-) TimerEvent: {}
+[3.512157] (-) TimerEvent: {}
+[3.612562] (-) TimerEvent: {}
+[3.660073] (cpp_pubsub) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.712693] (-) TimerEvent: {}
+[3.813153] (-) TimerEvent: {}
+[3.913588] (-) TimerEvent: {}
+[4.014171] (-) TimerEvent: {}
+[4.114579] (-) TimerEvent: {}
+[4.179065] (cpp_pubsub) StdoutLine: {'line': b'-- Found lifecycle_msgs: 1.2.1 (/opt/ros/humble/share/lifecycle_msgs/cmake)\n'}
+[4.214697] (-) TimerEvent: {}
+[4.315085] (-) TimerEvent: {}
+[4.415504] (-) TimerEvent: {}
+[4.516081] (-) TimerEvent: {}
+[4.562730] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[4.611672] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[4.616228] (-) TimerEvent: {}
+[4.681143] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[4.716414] (-) TimerEvent: {}
+[4.731325] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.797544] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.816537] (-) TimerEvent: {}
+[4.916966] (-) TimerEvent: {}
+[5.000372] (cpp_pubsub) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.8 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[5.017129] (-) TimerEvent: {}
+[5.117589] (-) TimerEvent: {}
+[5.218144] (-) TimerEvent: {}
+[5.318614] (-) TimerEvent: {}
+[5.419159] (-) TimerEvent: {}
+[5.460298] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[5.480297] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[5.519269] (-) TimerEvent: {}
+[5.619634] (-) TimerEvent: {}
+[5.720144] (-) TimerEvent: {}
+[5.820565] (-) TimerEvent: {}
+[5.920943] (-) TimerEvent: {}
+[6.021330] (-) TimerEvent: {}
+[6.121725] (-) TimerEvent: {}
+[6.173081] (cpp_pubsub) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[6.221861] (-) TimerEvent: {}
+[6.280725] (cpp_pubsub) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[6.321982] (-) TimerEvent: {}
+[6.381459] (cpp_pubsub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[6.422111] (-) TimerEvent: {}
+[6.490974] (cpp_pubsub) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[6.522251] (-) TimerEvent: {}
+[6.622703] (-) TimerEvent: {}
+[6.677437] (cpp_pubsub) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[6.678167] (cpp_pubsub) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[6.722829] (-) TimerEvent: {}
+[6.825873] (-) TimerEvent: {}
+[6.861998] (cpp_pubsub) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[6.862367] (cpp_pubsub) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[6.925992] (-) TimerEvent: {}
+[7.026394] (-) TimerEvent: {}
+[7.126825] (-) TimerEvent: {}
+[7.227267] (-) TimerEvent: {}
+[7.327706] (-) TimerEvent: {}
+[7.428121] (-) TimerEvent: {}
+[7.462888] (cpp_pubsub) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.8 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[7.528256] (-) TimerEvent: {}
+[7.628712] (-) TimerEvent: {}
+[7.707036] (cpp_pubsub) StdoutLine: {'line': b'-- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)\n'}
+[7.728831] (-) TimerEvent: {}
+[7.829296] (-) TimerEvent: {}
+[7.886170] (cpp_pubsub) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[7.929437] (-) TimerEvent: {}
+[8.004676] (cpp_pubsub) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.6 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[8.029577] (-) TimerEvent: {}
+[8.130162] (-) TimerEvent: {}
+[8.231921] (-) TimerEvent: {}
+[8.333086] (-) TimerEvent: {}
+[8.433510] (-) TimerEvent: {}
+[8.533960] (-) TimerEvent: {}
+[8.634363] (-) TimerEvent: {}
+[8.733539] (cpp_pubsub) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.6 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[8.734453] (-) TimerEvent: {}
+[8.834849] (-) TimerEvent: {}
+[8.903024] (cpp_pubsub) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[8.918355] (cpp_pubsub) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[8.918795] (cpp_pubsub) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[8.934972] (-) TimerEvent: {}
+[8.947761] (cpp_pubsub) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[9.035111] (-) TimerEvent: {}
+[9.135591] (-) TimerEvent: {}
+[9.167292] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.8 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[9.185547] (cpp_pubsub) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[9.235743] (-) TimerEvent: {}
+[9.336180] (-) TimerEvent: {}
+[9.420814] (cpp_pubsub) StdoutLine: {'line': b'-- Configuring done\n'}
+[9.436322] (-) TimerEvent: {}
+[9.536852] (-) TimerEvent: {}
+[9.612307] (cpp_pubsub) StdoutLine: {'line': b'-- Generating done\n'}
+[9.618504] (cpp_pubsub) StdoutLine: {'line': b'-- Build files have been written to: /home/sameer/cpp_files/ros2_cpp/build/cpp_pubsub\n'}
+[9.637003] (-) TimerEvent: {}
+[9.642367] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[9.643782] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[9.647367] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sameer/cpp_files/ros2_cpp/build/cpp_pubsub', '--', '-j4', '-l4'], 'cwd': '/home/sameer/cpp_files/ros2_cpp/build/cpp_pubsub', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'sameer'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sameer'), ('OLDPWD', '/home/sameer/cpp_files'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1413'), ('SYSTEMD_EXEC_PID', '1731'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '8857'), ('COLCON_PREFIX_PATH', '/home/sameer/ros2_ws_2/install:/home/sameer/demo/ros2_ws_1/install:/home/sameer/demo/ros2_ws/src/ros2_project/install:/home/sameer/demo/ros2_ws/install:/home/sameer/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'sameer'), ('JOURNAL_STREAM', '8:31049'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sameer'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/sameer/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sameer:@/tmp/.ICE-unix/1708,unix/sameer:/tmp/.ICE-unix/1708'), ('INVOCATION_ID', 'ce508244572f4701af90d68947f86d19'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sameer/ros2_ws_2/install/cpp_pubsub:/home/sameer/ros2_ws/install/my_robot_controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:a251ce44-703d-4eca-9edc-2b445ae36f45'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sameer/cpp_files/ros2_cpp/build/cpp_pubsub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sameer/ros2_ws_2/install/cpp_pubsub/lib/python3.10/site-packages:/home/sameer/demo/ros2_ws_1/install/ros2_project/lib/python3.10/site-packages:/home/sameer/demo/ros2_ws/src/ros2_project/install/ros2_project/lib/python3.10/site-packages:/home/sameer/demo/ros2_ws/install/ros2_project/lib/python3.10/site-packages:/home/sameer/ros2_ws/build/my_robot_controller:/home/sameer/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sameer/ros2_ws_2/install/cpp_pubsub:/home/sameer/ros2_ws/install/my_robot_controller:/opt/ros/humble')]), 'shell': False}
+[9.737174] (-) TimerEvent: {}
+[9.747585] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gtest_main\x1b[0m\n'}
+[9.778734] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gtest\x1b[0m\n'}
+[9.786839] (cpp_pubsub) StdoutLine: {'line': b'[ 22%] Built target gtest_main\n'}
+[9.828449] (cpp_pubsub) StdoutLine: {'line': b'[ 44%] Built target gtest\n'}
+[9.837505] (-) TimerEvent: {}
+[9.898960] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target pubsub_test\x1b[0m\n'}
+[9.937625] (-) TimerEvent: {}
+[10.011509] (cpp_pubsub) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/pubsub_test.dir/test/pubsub_test.cpp.o\x1b[0m\n'}
+[10.013231] (cpp_pubsub) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/pubsub_test.dir/src/publisher_member_function.cpp.o\x1b[0m\n'}
+[10.020568] (cpp_pubsub) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/pubsub_test.dir/src/subscriber_member_function.cpp.o\x1b[0m\n'}
+[10.037485] (cpp_pubsub) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding CXX object CMakeFiles/pubsub_test.dir/src/single_thread_spinner.cpp.o\x1b[0m\n'}
+[10.039848] (-) TimerEvent: {}
+[10.140758] (-) TimerEvent: {}
+[10.241975] (-) TimerEvent: {}
+[10.343001] (-) TimerEvent: {}
+[10.443891] (-) TimerEvent: {}
+[10.544671] (-) TimerEvent: {}
+[10.645688] (-) TimerEvent: {}
+[10.746432] (-) TimerEvent: {}
+[10.846897] (-) TimerEvent: {}
+[10.947394] (-) TimerEvent: {}
+[11.048204] (-) TimerEvent: {}
+[11.149231] (-) TimerEvent: {}
+[11.250656] (-) TimerEvent: {}
+[11.351555] (-) TimerEvent: {}
+[11.452271] (-) TimerEvent: {}
+[11.552684] (-) TimerEvent: {}
+[11.653095] (-) TimerEvent: {}
+[11.753514] (-) TimerEvent: {}
+[11.853920] (-) TimerEvent: {}
+[11.954341] (-) TimerEvent: {}
+[12.054683] (-) TimerEvent: {}
+[12.155037] (-) TimerEvent: {}
+[12.255430] (-) TimerEvent: {}
+[12.356186] (-) TimerEvent: {}
+[12.433989] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/publisher_member_function.cpp:8:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kpublisher_member_function.hpp: No such file or directory\n'}
+[12.437572] (cpp_pubsub) StderrLine: {'line': b'    8 | #include \x1b[01;31m\x1b[K"publisher_member_function.hpp"\x1b[m\x1b[K\n'}
+[12.441162] (cpp_pubsub) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.441520] (cpp_pubsub) StderrLine: {'line': b'compilation terminated.\n'}
+[12.449386] (cpp_pubsub) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/pubsub_test.dir/build.make:90: CMakeFiles/pubsub_test.dir/src/publisher_member_function.cpp.o] Error 1\n'}
+[12.451055] (cpp_pubsub) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[12.456300] (-) TimerEvent: {}
+[12.556757] (-) TimerEvent: {}
+[12.657474] (-) TimerEvent: {}
+[12.758218] (-) TimerEvent: {}
+[12.858980] (-) TimerEvent: {}
+[12.959693] (-) TimerEvent: {}
+[13.060470] (-) TimerEvent: {}
+[13.161201] (-) TimerEvent: {}
+[13.261997] (-) TimerEvent: {}
+[13.362739] (-) TimerEvent: {}
+[13.466840] (-) TimerEvent: {}
+[13.567405] (-) TimerEvent: {}
+[13.667861] (-) TimerEvent: {}
+[13.768598] (-) TimerEvent: {}
+[13.869304] (-) TimerEvent: {}
+[13.970046] (-) TimerEvent: {}
+[14.070760] (-) TimerEvent: {}
+[14.171472] (-) TimerEvent: {}
+[14.272204] (-) TimerEvent: {}
+[14.372896] (-) TimerEvent: {}
+[14.473623] (-) TimerEvent: {}
+[14.574328] (-) TimerEvent: {}
+[14.675040] (-) TimerEvent: {}
+[14.775735] (-) TimerEvent: {}
+[14.876621] (-) TimerEvent: {}
+[14.977504] (-) TimerEvent: {}
+[15.078189] (-) TimerEvent: {}
+[15.178997] (-) TimerEvent: {}
+[15.280456] (-) TimerEvent: {}
+[15.381525] (-) TimerEvent: {}
+[15.482353] (-) TimerEvent: {}
+[15.583052] (-) TimerEvent: {}
+[15.683911] (-) TimerEvent: {}
+[15.784787] (-) TimerEvent: {}
+[15.885517] (-) TimerEvent: {}
+[15.986246] (-) TimerEvent: {}
+[16.086684] (-) TimerEvent: {}
+[16.187139] (-) TimerEvent: {}
+[16.287602] (-) TimerEvent: {}
+[16.388221] (-) TimerEvent: {}
+[16.488674] (-) TimerEvent: {}
+[16.589635] (-) TimerEvent: {}
+[16.690551] (-) TimerEvent: {}
+[16.791380] (-) TimerEvent: {}
+[16.892239] (-) TimerEvent: {}
+[16.993303] (-) TimerEvent: {}
+[17.094054] (-) TimerEvent: {}
+[17.194862] (-) TimerEvent: {}
+[17.295700] (-) TimerEvent: {}
+[17.396509] (-) TimerEvent: {}
+[17.497308] (-) TimerEvent: {}
+[17.598289] (-) TimerEvent: {}
+[17.699182] (-) TimerEvent: {}
+[17.799928] (-) TimerEvent: {}
+[17.900647] (-) TimerEvent: {}
+[18.001391] (-) TimerEvent: {}
+[18.102349] (-) TimerEvent: {}
+[18.203112] (-) TimerEvent: {}
+[18.303602] (-) TimerEvent: {}
+[18.420399] (-) TimerEvent: {}
+[18.528689] (-) TimerEvent: {}
+[18.629137] (-) TimerEvent: {}
+[18.729567] (-) TimerEvent: {}
+[18.829989] (-) TimerEvent: {}
+[18.930855] (-) TimerEvent: {}
+[19.041866] (-) TimerEvent: {}
+[19.143080] (-) TimerEvent: {}
+[19.244094] (-) TimerEvent: {}
+[19.344825] (-) TimerEvent: {}
+[19.445510] (-) TimerEvent: {}
+[19.546424] (-) TimerEvent: {}
+[19.647137] (-) TimerEvent: {}
+[19.748048] (-) TimerEvent: {}
+[19.771990] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/test/pubsub_test.cpp:2\x1b[m\x1b[K:\n'}
+[19.776126] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/include/cpp_pubsub/publisher_member_function.hpp:23:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KsharedPtr\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kclass rclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[19.776444] (cpp_pubsub) StderrLine: {'line': b'   23 |         rclcpp::Publisher<std_msgs::msg::String>::\x1b[01;31m\x1b[KsharedPtr\x1b[m\x1b[K topic_pub_;\n'}
+[19.776666] (cpp_pubsub) StderrLine: {'line': b'      |                                                   \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[19.776873] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/include/cpp_pubsub/publisher_member_function.hpp:24:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KsharedPtr\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kclass rclcpp::TimerBase\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[19.777074] (cpp_pubsub) StderrLine: {'line': b'   24 |         rclcpp::TimerBase::\x1b[01;31m\x1b[KsharedPtr\x1b[m\x1b[K timer_;\n'}
+[19.777260] (cpp_pubsub) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[19.784991] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/include/cpp_pubsub/publisher_member_function.hpp:25:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstring\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[KString\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[19.785352] (cpp_pubsub) StderrLine: {'line': b'   25 |         std_msgs::msg::\x1b[01;31m\x1b[Kstring\x1b[m\x1b[K message;\n'}
+[19.785578] (cpp_pubsub) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[19.785806] (cpp_pubsub) StderrLine: {'line': b'      |                        \x1b[32m\x1b[KString\x1b[m\x1b[K\n'}
+[19.804950] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/subscriber_member_function.cpp:7\x1b[m\x1b[K:\n'}
+[19.805326] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/include/cpp_pubsub/subscriber_member_function.hpp:27:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstring\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[19.805563] (cpp_pubsub) StderrLine: {'line': b'   27 |         void topic_callback(const std_msgs::\x1b[01;31m\x1b[Kstring\x1b[m\x1b[K & msg);\n'}
+[19.808415] (cpp_pubsub) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[19.813402] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/subscriber_member_function.cpp:12:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KMinimalSubscriber\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[19.813757] (cpp_pubsub) StderrLine: {'line': b'   12 | \x1b[01;31m\x1b[KMinimalSubscriber\x1b[m\x1b[K::MinimalSubscriber():Node("minimal_subscriber")\n'}
+[19.814035] (cpp_pubsub) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[19.814247] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/subscriber_member_function.cpp:17:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KMinimalSubscriber\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[19.814454] (cpp_pubsub) StderrLine: {'line': b'   17 | void \x1b[01;31m\x1b[KMinimalSubscriber\x1b[m\x1b[K::topic_callback(const std_msgs::msg::string & msg)\n'}
+[19.814678] (cpp_pubsub) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[19.814881] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/subscriber_member_function.cpp:17:61:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstring\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[KString\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[19.815120] (cpp_pubsub) StderrLine: {'line': b'   17 | void MinimalSubscriber::topic_callback(const std_msgs::msg::\x1b[01;31m\x1b[Kstring\x1b[m\x1b[K & msg)\n'}
+[19.815322] (cpp_pubsub) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[19.815528] (cpp_pubsub) StderrLine: {'line': b'      |                                                             \x1b[32m\x1b[KString\x1b[m\x1b[K\n'}
+[19.830515] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/single_thread_spinner.cpp:5\x1b[m\x1b[K:\n'}
+[19.830860] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/include/cpp_pubsub/single_thread_spinner.hpp:36:49:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredeclaration of \xe2\x80\x98\x1b[01m\x1b[Kstd::atomic<bool> cpp_pubsub::SingleThreadSpinner::cancel_spin_called_\x1b[m\x1b[K\xe2\x80\x99\n'}
+[19.831084] (cpp_pubsub) StderrLine: {'line': b'   36 |         std::atomic<bool> cancel_spin_called_ = \x1b[01;31m\x1b[Kfalse\x1b[m\x1b[K;\n'}
+[19.831292] (cpp_pubsub) StderrLine: {'line': b'      |                                                 \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[19.831524] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/include/cpp_pubsub/single_thread_spinner.hpp:30:27:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration \xe2\x80\x98\x1b[01m\x1b[Kstd::atomic<bool> cpp_pubsub::SingleThreadSpinner::cancel_spin_called_\x1b[m\x1b[K\xe2\x80\x99\n'}
+[19.831727] (cpp_pubsub) StderrLine: {'line': b'   30 |         std::atomic<bool> \x1b[01;36m\x1b[Kcancel_spin_called_\x1b[m\x1b[K = false;\n'}
+[19.831923] (cpp_pubsub) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[19.832626] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/single_thread_spinner.cpp:18:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kbool cpp_pubsub::SingleThreadSpinner::add_node\x1b[m\x1b[K\xe2\x80\x99 is not a static data member of \xe2\x80\x98\x1b[01m\x1b[Kclass cpp_pubsub::SingleThreadSpinner\x1b[m\x1b[K\xe2\x80\x99\n'}
+[19.833025] (cpp_pubsub) StderrLine: {'line': b'   18 |     bool \x1b[01;31m\x1b[KSingleThreadSpinner\x1b[m\x1b[K::add_node(rclcpp_lifecycle::LifeCycleNode::SharedPtr lc_node)\n'}
+[19.833326] (cpp_pubsub) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[19.834050] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/single_thread_spinner.cpp:18:58:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp_lifecycle::LifeCycleNode\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[19.834383] (cpp_pubsub) StderrLine: {'line': b'   18 |     bool SingleThreadSpinner::add_node(rclcpp_lifecycle::\x1b[01;31m\x1b[KLifeCycleNode\x1b[m\x1b[K::SharedPtr lc_node)\n'}
+[19.834817] (cpp_pubsub) StderrLine: {'line': b'      |                                                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[19.839189] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/subscriber_member_function.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid topic_callback(const int&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[19.839481] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/subscriber_member_function.cpp:19:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Klast_message_timestamp_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[19.839684] (cpp_pubsub) StderrLine: {'line': b'   19 |                 if(!\x1b[01;31m\x1b[Klast_message_timestamp_\x1b[m\x1b[K)\n'}
+[19.839855] (cpp_pubsub) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[19.848185] (-) TimerEvent: {}
+[19.862740] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/subscriber_member_function.cpp:28:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected initializer before \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[19.863092] (cpp_pubsub) StderrLine: {'line': b'   28 |         \x1b[01;31m\x1b[K}\x1b[m\x1b[K\n'}
+[19.863317] (cpp_pubsub) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[19.863691] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/single_thread_spinner.cpp:28:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kbool cpp_pubsub::SingleThreadSpinner::remove_node\x1b[m\x1b[K\xe2\x80\x99 is not a static data member of \xe2\x80\x98\x1b[01m\x1b[Kclass cpp_pubsub::SingleThreadSpinner\x1b[m\x1b[K\xe2\x80\x99\n'}
+[19.863945] (cpp_pubsub) StderrLine: {'line': b'   28 |     bool \x1b[01;31m\x1b[KSingleThreadSpinner\x1b[m\x1b[K::remove_node(rclcpp_lifecycle::LifeCycleNode::SharedPtr lc_node)\n'}
+[19.864163] (cpp_pubsub) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[19.864362] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/single_thread_spinner.cpp:28:61:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp_lifecycle::LifeCycleNode\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[19.864552] (cpp_pubsub) StderrLine: {'line': b'   28 |     bool SingleThreadSpinner::remove_node(rclcpp_lifecycle::\x1b[01;31m\x1b[KLifeCycleNode\x1b[m\x1b[K::SharedPtr lc_node)\n'}
+[19.864713] (cpp_pubsub) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[19.875104] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/single_thread_spinner.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool cpp_pubsub::SingleThreadSpinner::remove_node(rclcpp::Node::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[19.877496] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/single_thread_spinner.cpp:35:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Klc_node\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Knode\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[19.877751] (cpp_pubsub) StderrLine: {'line': b'   35 |         return remove_node(\x1b[01;31m\x1b[Klc_node\x1b[m\x1b[K->get_node_base_interface());\n'}
+[19.877993] (cpp_pubsub) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[19.878182] (cpp_pubsub) StderrLine: {'line': b'      |                            \x1b[32m\x1b[Knode\x1b[m\x1b[K\n'}
+[19.879545] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/test/pubsub_test.cpp:3\x1b[m\x1b[K:\n'}
+[19.879912] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/include/cpp_pubsub/subscriber_member_function.hpp:27:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstring\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[19.880173] (cpp_pubsub) StderrLine: {'line': b'   27 |         void topic_callback(const std_msgs::\x1b[01;31m\x1b[Kstring\x1b[m\x1b[K & msg);\n'}
+[19.880404] (cpp_pubsub) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[19.886273] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/test/pubsub_test.cpp:4\x1b[m\x1b[K:\n'}
+[19.886625] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/include/cpp_pubsub/single_thread_spinner.hpp:36:49:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredeclaration of \xe2\x80\x98\x1b[01m\x1b[Kstd::atomic<bool> cpp_pubsub::SingleThreadSpinner::cancel_spin_called_\x1b[m\x1b[K\xe2\x80\x99\n'}
+[19.886855] (cpp_pubsub) StderrLine: {'line': b'   36 |         std::atomic<bool> cancel_spin_called_ = \x1b[01;31m\x1b[Kfalse\x1b[m\x1b[K;\n'}
+[19.887055] (cpp_pubsub) StderrLine: {'line': b'      |                                                 \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[19.887249] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/include/cpp_pubsub/single_thread_spinner.hpp:30:27:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration \xe2\x80\x98\x1b[01m\x1b[Kstd::atomic<bool> cpp_pubsub::SingleThreadSpinner::cancel_spin_called_\x1b[m\x1b[K\xe2\x80\x99\n'}
+[19.887479] (cpp_pubsub) StderrLine: {'line': b'   30 |         std::atomic<bool> \x1b[01;36m\x1b[Kcancel_spin_called_\x1b[m\x1b[K = false;\n'}
+[19.887669] (cpp_pubsub) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[19.948325] (-) TimerEvent: {}
+[20.048752] (-) TimerEvent: {}
+[20.149173] (-) TimerEvent: {}
+[20.249606] (-) TimerEvent: {}
+[20.350179] (-) TimerEvent: {}
+[20.448605] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/subscriber_member_function.cpp:26:54:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kelapsed_seconds\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[20.448969] (cpp_pubsub) StderrLine: {'line': b'   26 |                         std::chrono::duration<double>\x1b[01;35m\x1b[Kelapsed_seconds\x1b[m\x1b[K = now - *last_message_timestamp_;\n'}
+[20.449204] (cpp_pubsub) StderrLine: {'line': b'      |                                                      \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.449654] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/single_thread_spinner.cpp:33:67:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Knode\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[20.449955] (cpp_pubsub) StderrLine: {'line': b'   33 |     bool SingleThreadSpinner::remove_node(\x1b[01;35m\x1b[Krclcpp::Node::SharedPtr node\x1b[m\x1b[K)\n'}
+[20.450168] (-) TimerEvent: {}
+[20.450423] (cpp_pubsub) StderrLine: {'line': b'      |                                           \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[20.450657] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/subscriber_member_function.cpp:17:70:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[20.450897] (cpp_pubsub) StderrLine: {'line': b'   17 | void MinimalSubscriber::topic_callback(\x1b[01;35m\x1b[Kconst std_msgs::msg::string & msg\x1b[m\x1b[K)\n'}
+[20.451233] (cpp_pubsub) StderrLine: {'line': b'      |                                        \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[20.451462] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/subscriber_member_function.cpp:\x1b[m\x1b[K At global scope:\n'}
+[20.451712] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/subscriber_member_function.cpp:31:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KMinimalSubscriber\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[20.451922] (cpp_pubsub) StderrLine: {'line': b'   31 |  bool \x1b[01;31m\x1b[KMinimalSubscriber\x1b[m\x1b[K:: has_data_been_received()\n'}
+[20.452123] (cpp_pubsub) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.452326] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/single_thread_spinner.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool cpp_pubsub::SingleThreadSpinner::add_node(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[20.452546] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/single_thread_spinner.cpp:43:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp::executors::SingleThreadExecutor\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[20.452746] (cpp_pubsub) StderrLine: {'line': b'   43 |             rclcpp::executors::\x1b[01;31m\x1b[KSingleThreadExecutor\x1b[m\x1b[K::add_node(node);\n'}
+[20.452942] (cpp_pubsub) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.453128] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/single_thread_spinner.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool cpp_pubsub::SingleThreadSpinner::remove_node(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[20.453318] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/single_thread_spinner.cpp:58:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp::executors::SingleThreadExecutor\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[20.453508] (cpp_pubsub) StderrLine: {'line': b'   58 |             rclcpp::executors::\x1b[01;31m\x1b[KSingleThreadExecutor\x1b[m\x1b[K::remove_node(node);\n'}
+[20.453686] (cpp_pubsub) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.462151] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/subscriber_member_function.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kbool has_data_been_received()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[20.462499] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/subscriber_member_function.cpp:33:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kreceived_msg_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[20.462689] (cpp_pubsub) StderrLine: {'line': b'   33 |  return (!\x1b[01;31m\x1b[Kreceived_msg_\x1b[m\x1b[K.data.empty());\n'}
+[20.462860] (cpp_pubsub) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.463170] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/subscriber_member_function.cpp:\x1b[m\x1b[K At global scope:\n'}
+[20.463357] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/subscriber_member_function.cpp:35:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KMinimalSubcriber\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[20.463547] (cpp_pubsub) StderrLine: {'line': b'   35 |  std_msgs::msg::String \x1b[01;31m\x1b[KMinimalSubcriber\x1b[m\x1b[K:: get_received_msgs()\n'}
+[20.463711] (cpp_pubsub) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.468910] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/single_thread_spinner.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool cpp_pubsub::SingleThreadSpinner::cancel_all_spin()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[20.469261] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/single_thread_spinner.cpp:70:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kare_all_nodes_spinning_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kare_all_node_spinning\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[20.469483] (cpp_pubsub) StderrLine: {'line': b'   70 |         if(!\x1b[01;31m\x1b[Kare_all_nodes_spinning_\x1b[m\x1b[K.load())\n'}
+[20.469686] (cpp_pubsub) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.469923] (cpp_pubsub) StderrLine: {'line': b'      |             \x1b[32m\x1b[Kare_all_node_spinning\x1b[m\x1b[K\n'}
+[20.474609] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/subscriber_member_function.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::String get_received_msgs()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[20.474905] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/subscriber_member_function.cpp:37:12:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kreceived_msg_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kget_received_msgs\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[20.475109] (cpp_pubsub) StderrLine: {'line': b'   37 |     return \x1b[01;31m\x1b[Kreceived_msg_\x1b[m\x1b[K;\n'}
+[20.475274] (cpp_pubsub) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.475441] (cpp_pubsub) StderrLine: {'line': b'      |            \x1b[32m\x1b[Kget_received_msgs\x1b[m\x1b[K\n'}
+[20.475721] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/subscriber_member_function.cpp:\x1b[m\x1b[K At global scope:\n'}
+[20.475925] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/subscriber_member_function.cpp:39:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KMinimalSubscriber\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[20.476095] (cpp_pubsub) StderrLine: {'line': b'   39 |  double \x1b[01;31m\x1b[KMinimalSubscriber\x1b[m\x1b[K:: get_frequency()\n'}
+[20.476255] (cpp_pubsub) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.484780] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/subscriber_member_function.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kdouble get_frequency()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[20.485171] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/subscriber_member_function.cpp:41:12:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kfrequency_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kget_frequency\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[20.485422] (cpp_pubsub) StderrLine: {'line': b'   41 |     return \x1b[01;31m\x1b[Kfrequency_\x1b[m\x1b[K;\n'}
+[20.485658] (cpp_pubsub) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.485946] (cpp_pubsub) StderrLine: {'line': b'      |            \x1b[32m\x1b[Kget_frequency\x1b[m\x1b[K\n'}
+[20.490018] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/single_thread_spinner.cpp:76:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kare_all_nodes_spinning_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kare_all_node_spinning\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[20.490427] (cpp_pubsub) StderrLine: {'line': b'   76 |         while (\x1b[01;31m\x1b[Kare_all_nodes_spinning_\x1b[m\x1b[K.load());\n'}
+[20.490739] (cpp_pubsub) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.491013] (cpp_pubsub) StderrLine: {'line': b'      |                \x1b[32m\x1b[Kare_all_node_spinning\x1b[m\x1b[K\n'}
+[20.491618] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/single_thread_spinner.cpp:76:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kthis \xe2\x80\x98\x1b[01m\x1b[Kwhile\x1b[m\x1b[K\xe2\x80\x99 clause does not guard... [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmisleading-indentation\x07-Wmisleading-indentation\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[20.491916] (cpp_pubsub) StderrLine: {'line': b'   76 |         \x1b[01;35m\x1b[Kwhile\x1b[m\x1b[K (are_all_nodes_spinning_.load());\n'}
+[20.492107] (cpp_pubsub) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[20.492270] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/single_thread_spinner.cpp:78:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K...this statement, but the latter is misleadingly indented as if it were guarded by the \xe2\x80\x98\x1b[01m\x1b[Kwhile\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.492461] (cpp_pubsub) StderrLine: {'line': b'   78 |             \x1b[01;36m\x1b[Kstd\x1b[m\x1b[K::lock_guard<std::mutex>lock(mutex_);\n'}
+[20.492615] (cpp_pubsub) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[20.492764] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/single_thread_spinner.cpp:81:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K.\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[20.492922] (cpp_pubsub) StderrLine: {'line': b'   81 |                 if(spinner_thread_-\x1b[01;31m\x1b[K.\x1b[m\x1b[Kjoinable())spinner_thread_->join();\n'}
+[20.493088] (cpp_pubsub) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[20.493251] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/single_thread_spinner.cpp:\x1b[m\x1b[K At global scope:\n'}
+[20.493418] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/single_thread_spinner.cpp:87:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Kbool cpp_pubsub::SingleThreadSpinner::are_all_nodes_spinning()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.493608] (cpp_pubsub) StderrLine: {'line': b'   87 |     bool \x1b[01;31m\x1b[KSingleThreadSpinner\x1b[m\x1b[K::are_all_nodes_spinning()\n'}
+[20.493794] (cpp_pubsub) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.493974] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/single_thread_spinner.cpp:87:10:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kno functions named \xe2\x80\x98\x1b[01m\x1b[Kbool cpp_pubsub::SingleThreadSpinner::are_all_nodes_spinning()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.494143] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/single_thread_spinner.cpp:5\x1b[m\x1b[K:\n'}
+[20.494309] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/include/cpp_pubsub/single_thread_spinner.hpp:16:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass cpp_pubsub::SingleThreadSpinner\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[20.508352] (cpp_pubsub) StderrLine: {'line': b'   16 |     class \x1b[01;36m\x1b[KSingleThreadSpinner\x1b[m\x1b[K: private rclcpp::executors::SingleThreadedExecutor\n'}
+[20.508650] (cpp_pubsub) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.508866] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/single_thread_spinner.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool cpp_pubsub::SingleThreadSpinner::spin_some_all_nodes()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[20.509118] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/single_thread_spinner.cpp:94:12:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kare_all_nodes_spinning_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kare_all_node_spinning\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[20.509340] (cpp_pubsub) StderrLine: {'line': b'   94 |         if(\x1b[01;31m\x1b[Kare_all_nodes_spinning_\x1b[m\x1b[K.load())\n'}
+[20.509551] (cpp_pubsub) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.509757] (cpp_pubsub) StderrLine: {'line': b'      |            \x1b[32m\x1b[Kare_all_node_spinning\x1b[m\x1b[K\n'}
+[20.511197] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/single_thread_spinner.cpp:106:87:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kspin_all_nodes_\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kcpp_pubsub::SingleThreadSpinner\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.511512] (cpp_pubsub) StderrLine: {'line': b'  106 |                 spinner_thread_ = std::make_shared<std::thread>(&SingleThreadSpinner::\x1b[01;31m\x1b[Kspin_all_nodes_\x1b[m\x1b[K,this);\n'}
+[20.511720] (cpp_pubsub) StderrLine: {'line': b'      |                                                                                       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.527876] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/single_thread_spinner.cpp:109:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kare_all_nodes_spinning_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kare_all_node_spinning\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[20.528200] (cpp_pubsub) StderrLine: {'line': b'  109 |             \x1b[01;31m\x1b[Kare_all_nodes_spinning_\x1b[m\x1b[K.store(true);\n'}
+[20.528409] (cpp_pubsub) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.528583] (cpp_pubsub) StderrLine: {'line': b'      |             \x1b[32m\x1b[Kare_all_node_spinning\x1b[m\x1b[K\n'}
+[20.528934] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/single_thread_spinner.cpp:113:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kqualified-id in declaration before \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[20.529169] (cpp_pubsub) StderrLine: {'line': b'  113 |         void SingleThreadSpinner::spin_all_nodes_\x1b[01;31m\x1b[K(\x1b[m\x1b[K)\n'}
+[20.529382] (cpp_pubsub) StderrLine: {'line': b'      |                                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[20.548482] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/test/pubsub_test.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void PubSubCommunication_pub_sub_communication_Test::TestBody()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[20.549061] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/test/pubsub_test.cpp:28:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass std::shared_ptr<cpp_pubsub::SingleThreadSpinner>\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kadd_node\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.549315] (cpp_pubsub) StderrLine: {'line': b'   28 |     spinner.\x1b[01;31m\x1b[Kadd_node\x1b[m\x1b[K(pub_node->get_node_base_interface());\n'}
+[20.549536] (cpp_pubsub) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[20.549814] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/test/pubsub_test.cpp:29:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass std::shared_ptr<cpp_pubsub::SingleThreadSpinner>\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kadd_node\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.550082] (cpp_pubsub) StderrLine: {'line': b'   29 |     spinner.\x1b[01;31m\x1b[Kadd_node\x1b[m\x1b[K(sub_node->get_node_base_interface());\n'}
+[20.550287] (-) TimerEvent: {}
+[20.550710] (cpp_pubsub) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[20.550992] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/test/pubsub_test.cpp:31:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass std::shared_ptr<cpp_pubsub::SingleThreadSpinner>\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kspin_some_all_nodes\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.551250] (cpp_pubsub) StderrLine: {'line': b'   31 |     spinner.\x1b[01;31m\x1b[Kspin_some_all_nodes\x1b[m\x1b[K();\n'}
+[20.551464] (cpp_pubsub) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.564421] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest.h:62\x1b[m\x1b[K,\n'}
+[20.564795] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/test/pubsub_test.cpp:6\x1b[m\x1b[K:\n'}
+[20.565026] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/test/pubsub_test.cpp:34:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksub_pub\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[20.565246] (cpp_pubsub) StderrLine: {'line': b'   34 |     EXPECT_TRUE(\x1b[01;31m\x1b[Ksub_pub\x1b[m\x1b[K->has_data_been_received());\n'}
+[20.565461] (cpp_pubsub) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[20.570177] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/test/pubsub_test.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void PubSubCommunication_check_received_msg_Test::TestBody()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[20.570533] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/test/pubsub_test.cpp:58:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass std::shared_ptr<cpp_pubsub::SingleThreadSpinner>\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kadd_node\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.570796] (cpp_pubsub) StderrLine: {'line': b'   58 |     spinner.\x1b[01;31m\x1b[Kadd_node\x1b[m\x1b[K(pub_node->get_node_base_interface());\n'}
+[20.571017] (cpp_pubsub) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[20.571227] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/test/pubsub_test.cpp:59:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass std::shared_ptr<cpp_pubsub::SingleThreadSpinner>\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kadd_node\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.571445] (cpp_pubsub) StderrLine: {'line': b'   59 |     spinner.\x1b[01;31m\x1b[Kadd_node\x1b[m\x1b[K(sub_node->get_node_base_interface());\n'}
+[20.571648] (cpp_pubsub) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[20.571862] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/test/pubsub_test.cpp:61:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass std::shared_ptr<cpp_pubsub::SingleThreadSpinner>\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kspin_some_all_nodes\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.572071] (cpp_pubsub) StderrLine: {'line': b'   61 |     spinner.\x1b[01;31m\x1b[Kspin_some_all_nodes\x1b[m\x1b[K();\n'}
+[20.572297] (cpp_pubsub) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.582027] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest.h:62\x1b[m\x1b[K,\n'}
+[20.582445] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/test/pubsub_test.cpp:6\x1b[m\x1b[K:\n'}
+[20.582731] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/test/pubsub_test.cpp:64:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksub_pub\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[20.582988] (cpp_pubsub) StderrLine: {'line': b'   64 |     EXPECT_TRUE(\x1b[01;31m\x1b[Ksub_pub\x1b[m\x1b[K->has_data_been_received());\n'}
+[20.583219] (cpp_pubsub) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[20.597099] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest.h:375\x1b[m\x1b[K,\n'}
+[20.597463] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/test/pubsub_test.cpp:6\x1b[m\x1b[K:\n'}
+[20.597688] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/test/pubsub_test.cpp:66:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksub_pub\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[20.598280] (cpp_pubsub) StderrLine: {'line': b'   66 |     EXPECT_STREQ(\x1b[01;31m\x1b[Ksub_pub\x1b[m\x1b[K->get_received_msg().data.c_str(),"Hello, World! 0");\n'}
+[20.598528] (cpp_pubsub) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[20.598730] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest.h:62\x1b[m\x1b[K,\n'}
+[20.598915] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/test/pubsub_test.cpp:6\x1b[m\x1b[K:\n'}
+[20.599095] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/test/pubsub_test.cpp:\x1b[m\x1b[K At global scope:\n'}
+[20.599273] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/test/pubsub_test.cpp:70:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[Kclass PubSubCommunication_check_received_msg_Test\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.599462] (cpp_pubsub) StderrLine: {'line': b'   70 | TEST(\x1b[01;31m\x1b[KPubSubCommunication\x1b[m\x1b[K,check_received_msg)\n'}
+[20.599682] (cpp_pubsub) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.599879] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/test/pubsub_test.cpp:40:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious definition of \xe2\x80\x98\x1b[01m\x1b[Kclass PubSubCommunication_check_received_msg_Test\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.600081] (cpp_pubsub) StderrLine: {'line': b'   40 | TEST(\x1b[01;36m\x1b[KPubSubCommunication\x1b[m\x1b[K,check_received_msg)\n'}
+[20.600289] (cpp_pubsub) StderrLine: {'line': b'      |      \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.600492] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/test/pubsub_test.cpp:70:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[Ktesting::TestInfo* const PubSubCommunication_check_received_msg_Test::test_info_\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.600725] (cpp_pubsub) StderrLine: {'line': b'   70 | TEST(\x1b[01;31m\x1b[KPubSubCommunication\x1b[m\x1b[K,check_received_msg)\n'}
+[20.600928] (cpp_pubsub) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.601126] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/test/pubsub_test.cpp:40:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktesting::TestInfo* const PubSubCommunication_check_received_msg_Test::test_info_\x1b[m\x1b[K\xe2\x80\x99 previously declared here\n'}
+[20.601361] (cpp_pubsub) StderrLine: {'line': b'   40 | TEST(\x1b[01;36m\x1b[KPubSubCommunication\x1b[m\x1b[K,check_received_msg)\n'}
+[20.601565] (cpp_pubsub) StderrLine: {'line': b'      |      \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.601938] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/test/pubsub_test.cpp:70:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[Kvoid PubSubCommunication_check_received_msg_Test::TestBody()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.602193] (cpp_pubsub) StderrLine: {'line': b'   70 | TEST(\x1b[01;31m\x1b[KPubSubCommunication\x1b[m\x1b[K,check_received_msg)\n'}
+[20.602404] (cpp_pubsub) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.602608] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/test/pubsub_test.cpp:40:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvirtual void PubSubCommunication_check_received_msg_Test::TestBody()\x1b[m\x1b[K\xe2\x80\x99 previously defined here\n'}
+[20.602814] (cpp_pubsub) StderrLine: {'line': b'   40 | TEST(\x1b[01;36m\x1b[KPubSubCommunication\x1b[m\x1b[K,check_received_msg)\n'}
+[20.603012] (cpp_pubsub) StderrLine: {'line': b'      |      \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.650426] (-) TimerEvent: {}
+[20.750846] (-) TimerEvent: {}
+[20.851233] (-) TimerEvent: {}
+[20.951712] (-) TimerEvent: {}
+[21.052144] (-) TimerEvent: {}
+[21.152593] (-) TimerEvent: {}
+[21.253304] (-) TimerEvent: {}
+[21.353794] (-) TimerEvent: {}
+[21.454726] (-) TimerEvent: {}
+[21.477963] (cpp_pubsub) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/pubsub_test.dir/build.make:104: CMakeFiles/pubsub_test.dir/src/subscriber_member_function.cpp.o] Error 1\n'}
+[21.554848] (-) TimerEvent: {}
+[21.579592] (cpp_pubsub) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/pubsub_test.dir/build.make:118: CMakeFiles/pubsub_test.dir/src/single_thread_spinner.cpp.o] Error 1\n'}
+[21.654971] (-) TimerEvent: {}
+[21.755425] (-) TimerEvent: {}
+[21.796486] (cpp_pubsub) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/pubsub_test.dir/build.make:76: CMakeFiles/pubsub_test.dir/test/pubsub_test.cpp.o] Error 1\n'}
+[21.796874] (cpp_pubsub) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:156: CMakeFiles/pubsub_test.dir/all] Error 2\n'}
+[21.797224] (cpp_pubsub) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[21.801956] (cpp_pubsub) CommandEnded: {'returncode': 2}
+[21.855549] (-) TimerEvent: {}
+[21.956184] (-) TimerEvent: {}
+[22.056706] (-) TimerEvent: {}
+[22.157704] (-) TimerEvent: {}
+[22.258788] (-) TimerEvent: {}
+[22.360416] (-) TimerEvent: {}
+[22.461510] (-) TimerEvent: {}
+[22.562468] (-) TimerEvent: {}
+[22.663537] (-) TimerEvent: {}
+[22.718633] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 2}
+[22.729812] (-) EventReactorShutdown: {}

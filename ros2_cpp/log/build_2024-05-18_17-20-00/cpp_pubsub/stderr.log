@@ -1,0 +1,39 @@
+[31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+  add_executable cannot create target "pubsub_test" because another target
+  with the same name already exists.  The existing target is an executable
+  created in source directory
+  "/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub".  See documentation for
+  policy CMP0002 for more details.
+Call Stack (most recent call first):
+  /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+  /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)
+  CMakeLists.txt:80 (ament_add_gtest)
+
+[0m
+[31mCMake Error at CMakeLists.txt:81 (target_link_libraries):
+  The plain signature for target_link_libraries has already been used with
+  the target "pubsub_test".  All uses of target_link_libraries with a target
+  must be either all-keyword or all-plain.
+
+  The uses of the plain signature are here:
+
+   * /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:53 (target_link_libraries)
+   * /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:55 (target_link_libraries)
+   * /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:59 (target_link_libraries)
+
+
+[0m
+[31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:145 (target_link_libraries):
+  The keyword signature for target_link_libraries has already been used with
+  the target "pubsub_test".  All uses of target_link_libraries with a target
+  must be either all-keyword or all-plain.
+
+  The uses of the keyword signature are here:
+
+   * CMakeLists.txt:81 (target_link_libraries)
+
+Call Stack (most recent call first):
+  CMakeLists.txt:89 (ament_target_dependencies)
+
+[0m
+gmake: *** [Makefile:376: cmake_check_build_system] Error 1

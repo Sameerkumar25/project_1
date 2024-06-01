@@ -1,0 +1,97 @@
+[0.017s] Invoking command in '/home/sameer/cpp_files/ros2_cpp/build/cpp_pubsub': CMAKE_PREFIX_PATH=/home/sameer/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/sameer/cpp_files/ros2_cpp/build/cpp_pubsub -- -j4 -l4
+[0.265s] [ 22%] Built target gtest_main
+[0.265s] [ 44%] Built target gtest
+[0.294s] [35m[1mConsolidate compiler generated dependencies of target pubsub_test[0m
+[0.349s] [ 55%] [32mBuilding CXX object CMakeFiles/pubsub_test.dir/test/pubsub_test.cpp.o[0m
+[0.351s] [ 66%] [32mBuilding CXX object CMakeFiles/pubsub_test.dir/src/publisher_member_function.cpp.o[0m
+[0.356s] [ 77%] [32mBuilding CXX object CMakeFiles/pubsub_test.dir/src/subscriber_member_function.cpp.o[0m
+[0.356s] [ 88%] [32mBuilding CXX object CMakeFiles/pubsub_test.dir/src/single_thread_spinner.cpp.o[0m
+[1.434s] [01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/publisher_member_function.cpp:8:10:[m[K [01;31m[Kfatal error: [m[Kpublisher_member_function.hpp: No such file or directory
+[1.434s]     8 | #include [01;31m[K"publisher_member_function.hpp"[m[K
+[1.435s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.435s] compilation terminated.
+[1.443s] gmake[2]: *** [CMakeFiles/pubsub_test.dir/build.make:90: CMakeFiles/pubsub_test.dir/src/publisher_member_function.cpp.o] Error 1
+[1.443s] gmake[2]: *** Waiting for unfinished jobs....
+[6.435s] [01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/subscriber_member_function.cpp:[m[K In member function ‘[01m[Kvoid cpp_pubsub::MinimalSubscriber::topic_callback(const String&)[m[K’:
+[6.436s] [01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/subscriber_member_function.cpp:35:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kreceived_msg_[m[K’ was not declared in this scope; did you mean ‘[01m[Kget_received_msg[m[K’?
+[6.436s]    35 |         [01;31m[Kreceived_msg_[m[K = msg;
+[6.436s]       |         [01;31m[K^~~~~~~~~~~~~[m[K
+[6.436s]       |         [32m[Kget_received_msg[m[K
+[6.448s] [01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/subscriber_member_function.cpp:[m[K In member function ‘[01m[Kbool cpp_pubsub::MinimalSubscriber::has_data_been_received()[m[K’:
+[6.449s] [01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/subscriber_member_function.cpp:40:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kreceived_msg_[m[K’ was not declared in this scope; did you mean ‘[01m[Kget_received_msg[m[K’?
+[6.449s]    40 |     return (![01;31m[Kreceived_msg_[m[K.data.empty());
+[6.449s]       |              [01;31m[K^~~~~~~~~~~~~[m[K
+[6.449s]       |              [32m[Kget_received_msg[m[K
+[6.450s] [01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/subscriber_member_function.cpp:[m[K At global scope:
+[6.450s] [01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/subscriber_member_function.cpp:43:24:[m[K [01;31m[Kerror: [m[K‘[01m[KMinimalSubcriber[m[K’ has not been declared
+[6.450s]    43 |  std_msgs::msg::String [01;31m[KMinimalSubcriber[m[K:: get_received_msg()
+[6.450s]       |                        [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[6.456s] [01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/subscriber_member_function.cpp:[m[K In function ‘[01m[Kstd_msgs::msg::String cpp_pubsub::get_received_msg()[m[K’:
+[6.457s] [01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/subscriber_member_function.cpp:45:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kreceived_msg_[m[K’ was not declared in this scope; did you mean ‘[01m[Kget_received_msg[m[K’?
+[6.457s]    45 |     return [01;31m[Kreceived_msg_[m[K;
+[6.457s]       |            [01;31m[K^~~~~~~~~~~~~[m[K
+[6.457s]       |            [32m[Kget_received_msg[m[K
+[6.627s] [01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/single_thread_spinner.cpp:[m[K In member function ‘[01m[Kbool cpp_pubsub::SingleThreadSpinner::add_node(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr)[m[K’:
+[6.627s] [01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/single_thread_spinner.cpp:46:32:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::executors::SingleThreadExecutor[m[K’ has not been declared
+[6.628s]    46 |             rclcpp::executors::[01;31m[KSingleThreadExecutor[m[K::add_node(node);
+[6.628s]       |                                [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[6.629s] [01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/single_thread_spinner.cpp:[m[K In member function ‘[01m[Kbool cpp_pubsub::SingleThreadSpinner::remove_node(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr)[m[K’:
+[6.629s] [01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/single_thread_spinner.cpp:61:32:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::executors::SingleThreadExecutor[m[K’ has not been declared
+[6.630s]    61 |             rclcpp::executors::[01;31m[KSingleThreadExecutor[m[K::remove_node(node);
+[6.630s]       |                                [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[6.631s] [01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/single_thread_spinner.cpp:[m[K In member function ‘[01m[Kbool cpp_pubsub::SingleThreadSpinner::cancel_all_spin()[m[K’:
+[6.632s] [01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/single_thread_spinner.cpp:79:9:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kwhile[m[K’ clause does not guard... [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmisleading-indentation-Wmisleading-indentation]8;;[m[K]
+[6.632s]    79 |         [01;35m[Kwhile[m[K(are_all_nodes_spinning_.load());
+[6.632s]       |         [01;35m[K^~~~~[m[K
+[6.632s] [01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/single_thread_spinner.cpp:81:13:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kwhile[m[K’
+[6.632s]    81 |             [01;36m[Kstd[m[K::lock_guard<std::mutex> lock(mutex_);
+[6.633s]       |             [01;36m[K^~~[m[K
+[6.634s] [01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/single_thread_spinner.cpp:[m[K In member function ‘[01m[Kbool cpp_pubsub::SingleThreadSpinner::spin_some_all_nodes()[m[K’:
+[6.634s] [01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/single_thread_spinner.cpp:120:50:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+[6.634s]   120 |         void SingleThreadSpinner::spin_all_nodes_[01;31m[K([m[K)
+[6.634s]       |                                                  [01;31m[K^[m[K
+[7.490s] [01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/test/pubsub_test.cpp:[m[K In member function ‘[01m[Kvirtual void PubSubCommunication_pub_sub_communication_Test::TestBody()[m[K’:
+[7.491s] [01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/test/pubsub_test.cpp:14:51:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K;[m[K’ token
+[7.491s]    14 |     auto spinner = cpp_pubsub::SingleThreadSpinner[01;31m[K;[m[K
+[7.491s]       |                                                   [01;31m[K^[m[K
+[7.530s] [01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/test/pubsub_test.cpp:29:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub_node[m[K’ was not declared in this scope; did you mean ‘[01m[Ksub_node[m[K’?
+[7.530s]    29 |     spinner.add_node([01;31m[Kpub_node[m[K->get_node_base_interface());
+[7.530s]       |                      [01;31m[K^~~~~~~~[m[K
+[7.530s]       |                      [32m[Ksub_node[m[K
+[7.540s] [01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/test/pubsub_test.cpp:[m[K In member function ‘[01m[Kvirtual void PubSubCommunication_check_received_msg_Test::TestBody()[m[K’:
+[7.540s] [01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/test/pubsub_test.cpp:61:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::shared_ptr<cpp_pubsub::SingleThreadSpinner>[m[K’ has no member named ‘[01m[Kadd_node[m[K’
+[7.540s]    61 |     spinner.[01;31m[Kadd_node[m[K(pub_node->get_node_base_interface());
+[7.541s]       |             [01;31m[K^~~~~~~~[m[K
+[7.541s] [01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/test/pubsub_test.cpp:62:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::shared_ptr<cpp_pubsub::SingleThreadSpinner>[m[K’ has no member named ‘[01m[Kadd_node[m[K’
+[7.541s]    62 |     spinner.[01;31m[Kadd_node[m[K(sub_node->get_node_base_interface());
+[7.541s]       |             [01;31m[K^~~~~~~~[m[K
+[7.542s] [01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/test/pubsub_test.cpp:64:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::shared_ptr<cpp_pubsub::SingleThreadSpinner>[m[K’ has no member named ‘[01m[Kspin_some_all_nodes[m[K’
+[7.542s]    64 |     spinner.[01;31m[Kspin_some_all_nodes[m[K();
+[7.542s]       |             [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[7.543s] In file included from [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest.h:62[m[K,
+[7.543s]                  from [01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/test/pubsub_test.cpp:6[m[K:
+[7.543s] [01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/test/pubsub_test.cpp:[m[K At global scope:
+[7.543s] [01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/test/pubsub_test.cpp:73:6:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kclass PubSubCommunication_check_received_msg_Test[m[K’
+[7.544s]    73 | TEST([01;31m[KPubSubCommunication[m[K,check_received_msg)
+[7.544s]       |      [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[7.544s] [01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/test/pubsub_test.cpp:41:6:[m[K [01;36m[Knote: [m[Kprevious definition of ‘[01m[Kclass PubSubCommunication_check_received_msg_Test[m[K’
+[7.544s]    41 | TEST([01;36m[KPubSubCommunication[m[K,check_received_msg)
+[7.544s]       |      [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[7.545s] [01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/test/pubsub_test.cpp:73:6:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Ktesting::TestInfo* const PubSubCommunication_check_received_msg_Test::test_info_[m[K’
+[7.545s]    73 | TEST([01;31m[KPubSubCommunication[m[K,check_received_msg)
+[7.545s]       |      [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[7.545s] [01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/test/pubsub_test.cpp:41:6:[m[K [01;36m[Knote: [m[K‘[01m[Ktesting::TestInfo* const PubSubCommunication_check_received_msg_Test::test_info_[m[K’ previously declared here
+[7.545s]    41 | TEST([01;36m[KPubSubCommunication[m[K,check_received_msg)
+[7.546s]       |      [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[7.546s] [01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/test/pubsub_test.cpp:73:6:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kvoid PubSubCommunication_check_received_msg_Test::TestBody()[m[K’
+[7.546s]    73 | TEST([01;31m[KPubSubCommunication[m[K,check_received_msg)
+[7.546s]       |      [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[7.546s] [01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/test/pubsub_test.cpp:41:6:[m[K [01;36m[Knote: [m[K‘[01m[Kvirtual void PubSubCommunication_check_received_msg_Test::TestBody()[m[K’ previously defined here
+[7.546s]    41 | TEST([01;36m[KPubSubCommunication[m[K,check_received_msg)
+[7.547s]       |      [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[7.841s] gmake[2]: *** [CMakeFiles/pubsub_test.dir/build.make:118: CMakeFiles/pubsub_test.dir/src/single_thread_spinner.cpp.o] Error 1
+[8.577s] gmake[2]: *** [CMakeFiles/pubsub_test.dir/build.make:76: CMakeFiles/pubsub_test.dir/test/pubsub_test.cpp.o] Error 1
+[10.683s] gmake[2]: *** [CMakeFiles/pubsub_test.dir/build.make:104: CMakeFiles/pubsub_test.dir/src/subscriber_member_function.cpp.o] Error 1
+[10.683s] gmake[1]: *** [CMakeFiles/Makefile2:156: CMakeFiles/pubsub_test.dir/all] Error 2
+[10.684s] gmake: *** [Makefile:146: all] Error 2
+[10.687s] Invoked command in '/home/sameer/cpp_files/ros2_cpp/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=/home/sameer/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/sameer/cpp_files/ros2_cpp/build/cpp_pubsub -- -j4 -l4

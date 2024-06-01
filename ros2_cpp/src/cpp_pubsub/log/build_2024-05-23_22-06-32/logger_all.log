@@ -1,0 +1,79 @@
+[0.186s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'cpp_pubsub']
+[0.186s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['cpp_pubsub'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7bd7f1cf4190>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7bd7f1cbf5b0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7bd7f1cbf5b0>>)
+[0.551s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.551s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.551s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.551s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.551s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.551s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.552s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.588s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'cpp_pubsub'
+[0.588s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.588s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.588s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.588s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.588s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.621s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.621s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.624s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/sameer/ros2_ws/install
+[0.626s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[0.629s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.699s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_args' from command line to 'None'
+[0.699s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_target' from command line to 'None'
+[0.699s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.699s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_clean_cache' from command line to 'False'
+[0.699s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_clean_first' from command line to 'False'
+[0.699s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_force_configure' from command line to 'False'
+[0.699s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'ament_cmake_args' from command line to 'None'
+[0.700s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'catkin_cmake_args' from command line to 'None'
+[0.700s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.700s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_pubsub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/build/cpp_pubsub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/install/cpp_pubsub', 'merge_install': False, 'path': '/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub', 'symlink_install': False, 'test_result_base': None}
+[0.700s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.701s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.702s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub' with build type 'ament_cmake'
+[0.702s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub'
+[0.705s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.706s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.706s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.720s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/build/cpp_pubsub': CMAKE_PREFIX_PATH=/home/sameer/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/build/cpp_pubsub -- -j4 -l4
+[11.446s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=/home/sameer/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/build/cpp_pubsub -- -j4 -l4
+[11.516s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_pubsub)
+[11.521s] Level 1:colcon.colcon_core.environment:checking '/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/install/cpp_pubsub' for CMake module files
+[11.522s] Level 1:colcon.colcon_core.environment:checking '/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/install/cpp_pubsub' for CMake config files
+[11.523s] Level 1:colcon.colcon_core.environment:checking '/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/install/cpp_pubsub/bin'
+[11.523s] Level 1:colcon.colcon_core.environment:checking '/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/install/cpp_pubsub/lib/pkgconfig/cpp_pubsub.pc'
+[11.524s] Level 1:colcon.colcon_core.environment:checking '/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/install/cpp_pubsub/lib/python3.10/site-packages'
+[11.524s] Level 1:colcon.colcon_core.environment:checking '/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/install/cpp_pubsub/bin'
+[11.524s] INFO:colcon.colcon_core.shell:Creating package script '/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/package.ps1'
+[11.526s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/package.dsv'
+[11.527s] INFO:colcon.colcon_core.shell:Creating package script '/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/package.sh'
+[11.528s] INFO:colcon.colcon_core.shell:Creating package script '/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/package.bash'
+[11.530s] INFO:colcon.colcon_core.shell:Creating package script '/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/package.zsh'
+[11.532s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/install/cpp_pubsub/share/colcon-core/packages/cpp_pubsub)
+[11.543s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[11.543s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[11.543s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[11.543s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[11.555s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[11.555s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[11.556s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[11.580s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[11.581s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/install/local_setup.ps1'
+[11.583s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/install/_local_setup_util_ps1.py'
+[11.587s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/install/setup.ps1'
+[11.589s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/install/local_setup.sh'
+[11.591s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/install/_local_setup_util_sh.py'
+[11.592s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/install/setup.sh'
+[11.595s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/install/local_setup.bash'
+[11.597s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/install/setup.bash'
+[11.600s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/install/local_setup.zsh'
+[11.601s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/install/setup.zsh'

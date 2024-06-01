@@ -1,0 +1,21 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/sameer/ros2_ws_2/install/cpp_pubsub/lib/python3.10/site-packages",
+        "/home/sameer/demo/ros2_ws_1/install/ros2_project/lib/python3.10/site-packages",
+        "/home/sameer/demo/ros2_ws/src/ros2_project/install/ros2_project/lib/python3.10/site-packages",
+        "/home/sameer/demo/ros2_ws/install/ros2_project/lib/python3.10/site-packages",
+        "/home/sameer/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/sameer/ros2_ws_2/install/cpp_pubsub/lib/python3.10/site-packages",
+        "/home/sameer/demo/ros2_ws_1/install/ros2_project/lib/python3.10/site-packages",
+        "/home/sameer/demo/ros2_ws/src/ros2_project/install/ros2_project/lib/python3.10/site-packages",
+        "/home/sameer/demo/ros2_ws/install/ros2_project/lib/python3.10/site-packages",
+        "/home/sameer/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "C_Cpp.errorSquiggles": "disabled"
+}

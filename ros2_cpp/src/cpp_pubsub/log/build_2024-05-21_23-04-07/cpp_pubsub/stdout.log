@@ -1,0 +1,5 @@
+[ 22%] Built target gtest_main
+[ 44%] Built target gtest
+[35m[1mConsolidate compiler generated dependencies of target pubsub_test[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/pubsub_test.dir/src/subscriber_member_function.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/pubsub_test.dir/src/single_thread_spinner.cpp.o[0m

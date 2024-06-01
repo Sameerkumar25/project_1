@@ -1,0 +1,42 @@
+[0.017s] Invoking command in '/home/sameer/cpp_files/ros2_cpp/build/cpp_pubsub': CMAKE_PREFIX_PATH=/home/sameer/ros2_ws_2/install/cpp_pubsub:/home/sameer/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/sameer/cpp_files/ros2_cpp/install/cpp_pubsub
+[0.043s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.276s] -- Found lifecycle_msgs: 1.2.1 (/opt/ros/humble/share/lifecycle_msgs/cmake)
+[0.320s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.324s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.337s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.357s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.388s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.415s] -- Found rclcpp_lifecycle: 16.0.8 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[0.543s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.545s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.770s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.103s] -- Found rclcpp_action: 16.0.8 (/opt/ros/humble/share/rclcpp_action/cmake)
+[1.272s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[1.376s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.458s] -- Found tf2_ros: 0.25.6 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.909s] -- Found tf2_geometry_msgs: 0.25.6 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.917s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.919s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.936s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.093s] [31mCMake Error at CMakeLists.txt:34 (target_include_directories):
+[2.093s]   Cannot specify include directories for target "INTERFACE" which is not
+[2.093s]   built by this project.
+[2.093s] 
+[2.093s] [0m
+[2.718s] [31mCMake Error at CMakeLists.txt:55 (install):
+[2.719s]   install DIRECTORY given no DESTINATION!
+[2.720s] 
+[2.721s] [0m
+[2.758s] -- Found ament_cmake_gtest: 1.3.8 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[2.891s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.932s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.392s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.400s] -- Configured cppcheck include dirs: /home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/include;/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/include/;/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/
+[3.400s] -- Configured cppcheck exclude dirs and/or files: 
+[3.403s] -- Added test 'lint_cmake' to check CMake code style
+[3.407s] -- Added test 'uncrustify' to check C / C++ code style
+[3.407s] -- Configured uncrustify additional arguments: 
+[3.409s] -- Added test 'xmllint' to check XML markup files
+[3.433s] -- Configuring incomplete, errors occurred!
+[3.434s] See also "/home/sameer/cpp_files/ros2_cpp/build/cpp_pubsub/CMakeFiles/CMakeOutput.log".
+[3.463s] Invoked command in '/home/sameer/cpp_files/ros2_cpp/build/cpp_pubsub' returned '1': CMAKE_PREFIX_PATH=/home/sameer/ros2_ws_2/install/cpp_pubsub:/home/sameer/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/sameer/cpp_files/ros2_cpp/install/cpp_pubsub

@@ -1,0 +1,321 @@
+[0.000000] (-) TimerEvent: {}
+[0.000188] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict()}
+[0.000276] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.015246] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.016466] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub', '-DCMAKE_INSTALL_PREFIX=/home/sameer/cpp_files/ros2_cpp/install/cpp_pubsub'], 'cwd': '/home/sameer/cpp_files/ros2_cpp/build/cpp_pubsub', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'sameer'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sameer'), ('OLDPWD', '/home/sameer/cpp_files/ros2_cpp/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1413'), ('SYSTEMD_EXEC_PID', '1731'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '8857'), ('COLCON_PREFIX_PATH', '/home/sameer/ros2_ws_2/install:/home/sameer/demo/ros2_ws_1/install:/home/sameer/demo/ros2_ws/src/ros2_project/install:/home/sameer/demo/ros2_ws/install:/home/sameer/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'sameer'), ('JOURNAL_STREAM', '8:31049'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sameer'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/sameer/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sameer:@/tmp/.ICE-unix/1708,unix/sameer:/tmp/.ICE-unix/1708'), ('INVOCATION_ID', 'ce508244572f4701af90d68947f86d19'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sameer/ros2_ws_2/install/cpp_pubsub:/home/sameer/ros2_ws/install/my_robot_controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:a251ce44-703d-4eca-9edc-2b445ae36f45'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sameer/cpp_files/ros2_cpp/build/cpp_pubsub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sameer/ros2_ws_2/install/cpp_pubsub/lib/python3.10/site-packages:/home/sameer/demo/ros2_ws_1/install/ros2_project/lib/python3.10/site-packages:/home/sameer/demo/ros2_ws/src/ros2_project/install/ros2_project/lib/python3.10/site-packages:/home/sameer/demo/ros2_ws/install/ros2_project/lib/python3.10/site-packages:/home/sameer/ros2_ws/build/my_robot_controller:/home/sameer/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sameer/ros2_ws_2/install/cpp_pubsub:/home/sameer/ros2_ws/install/my_robot_controller:/opt/ros/humble')]), 'shell': False}
+[0.035329] (cpp_pubsub) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[0.035591] (cpp_pubsub) StderrLine: {'line': b'  Compatibility with CMake < 2.4 is not supported by CMake >= 3.0.\n'}
+[0.035710] (cpp_pubsub) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.035813] (cpp_pubsub) StderrLine: {'line': b'\x1b[0m\n'}
+[0.035912] (cpp_pubsub) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[0.036010] (cpp_pubsub) StderrLine: {'line': b'  Compatibility with CMake < 2.8.12 will be removed from a future version of\n'}
+[0.036110] (cpp_pubsub) StderrLine: {'line': b'  CMake.\n'}
+[0.036207] (cpp_pubsub) StderrLine: {'line': b'\n'}
+[0.036304] (cpp_pubsub) StderrLine: {'line': b'  Update the VERSION argument <min> value or use a ...<max> suffix to tell\n'}
+[0.036459] (cpp_pubsub) StderrLine: {'line': b'  CMake that the project does not need compatibility with older versions.\n'}
+[0.036625] (cpp_pubsub) StderrLine: {'line': b'\n'}
+[0.036790] (cpp_pubsub) StderrLine: {'line': b'\x1b[0m\n'}
+[0.046423] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.098706] (-) TimerEvent: {}
+[0.155364] (cpp_pubsub) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPython/Support.cmake:1831 (list):\n'}
+[0.157134] (cpp_pubsub) StderrLine: {'line': b'  Policy CMP0007 is not set: list command no longer ignores empty elements.\n'}
+[0.157300] (cpp_pubsub) StderrLine: {'line': b'  Run "cmake --help-policy CMP0007" for policy details.  Use the cmake_policy\n'}
+[0.157411] (cpp_pubsub) StderrLine: {'line': b'  command to set the policy and suppress this warning.  List has value =\n'}
+[0.157513] (cpp_pubsub) StderrLine: {'line': b'  [Python;3;10;12;64;;cpython-310-x86_64-linux-gnu;/usr/lib/python3.10;/usr/lib/python3.10;/usr/lib/python3/dist-packages;/usr/lib/python3/dist-packages].\n'}
+[0.157615] (cpp_pubsub) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.157711] (cpp_pubsub) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/FindPython3.cmake:490 (include)\n'}
+[0.157807] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/python.cmake:33 (find_package)\n'}
+[0.157903] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/all.cmake:54 (include)\n'}
+[0.157999] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)\n'}
+[0.158111] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[0.158206] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[0.158302] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[0.158396] (cpp_pubsub) StderrLine: {'line': b'  CMakeLists.txt:9 (find_package)\n'}
+[0.158490] (cpp_pubsub) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.158585] (cpp_pubsub) StderrLine: {'line': b'\x1b[0m\n'}
+[0.158680] (cpp_pubsub) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPython/Support.cmake:1833 (list):\n'}
+[0.158775] (cpp_pubsub) StderrLine: {'line': b'  Policy CMP0007 is not set: list command no longer ignores empty elements.\n'}
+[0.158869] (cpp_pubsub) StderrLine: {'line': b'  Run "cmake --help-policy CMP0007" for policy details.  Use the cmake_policy\n'}
+[0.158964] (cpp_pubsub) StderrLine: {'line': b'  command to set the policy and suppress this warning.  List has value =\n'}
+[0.159057] (cpp_pubsub) StderrLine: {'line': b'  [Python;3;10;12;64;;cpython-310-x86_64-linux-gnu;/usr/lib/python3.10;/usr/lib/python3.10;/usr/lib/python3/dist-packages;/usr/lib/python3/dist-packages].\n'}
+[0.159153] (cpp_pubsub) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.159246] (cpp_pubsub) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/FindPython3.cmake:490 (include)\n'}
+[0.159339] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/python.cmake:33 (find_package)\n'}
+[0.159433] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/all.cmake:54 (include)\n'}
+[0.159527] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)\n'}
+[0.159621] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[0.159715] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[0.159810] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[0.159905] (cpp_pubsub) StderrLine: {'line': b'  CMakeLists.txt:9 (find_package)\n'}
+[0.159999] (cpp_pubsub) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.160092] (cpp_pubsub) StderrLine: {'line': b'\x1b[0m\n'}
+[0.160185] (cpp_pubsub) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPython/Support.cmake:1834 (list):\n'}
+[0.160279] (cpp_pubsub) StderrLine: {'line': b'  Policy CMP0007 is not set: list command no longer ignores empty elements.\n'}
+[0.160372] (cpp_pubsub) StderrLine: {'line': b'  Run "cmake --help-policy CMP0007" for policy details.  Use the cmake_policy\n'}
+[0.160467] (cpp_pubsub) StderrLine: {'line': b'  command to set the policy and suppress this warning.  List has value =\n'}
+[0.160572] (cpp_pubsub) StderrLine: {'line': b'  [Python;3;10;12;64;;cpython-310-x86_64-linux-gnu;/usr/lib/python3.10;/usr/lib/python3.10;/usr/lib/python3/dist-packages;/usr/lib/python3/dist-packages].\n'}
+[0.160669] (cpp_pubsub) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.160763] (cpp_pubsub) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/FindPython3.cmake:490 (include)\n'}
+[0.160857] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/python.cmake:33 (find_package)\n'}
+[0.160995] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/all.cmake:54 (include)\n'}
+[0.161099] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)\n'}
+[0.161205] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[0.161302] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[0.161398] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[0.161502] (cpp_pubsub) StderrLine: {'line': b'  CMakeLists.txt:9 (find_package)\n'}
+[0.161597] (cpp_pubsub) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.161702] (cpp_pubsub) StderrLine: {'line': b'\x1b[0m\n'}
+[0.161797] (cpp_pubsub) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPython/Support.cmake:1835 (list):\n'}
+[0.161893] (cpp_pubsub) StderrLine: {'line': b'  Policy CMP0007 is not set: list command no longer ignores empty elements.\n'}
+[0.161987] (cpp_pubsub) StderrLine: {'line': b'  Run "cmake --help-policy CMP0007" for policy details.  Use the cmake_policy\n'}
+[0.162083] (cpp_pubsub) StderrLine: {'line': b'  command to set the policy and suppress this warning.  List has value =\n'}
+[0.162177] (cpp_pubsub) StderrLine: {'line': b'  [Python;3;10;12;64;;cpython-310-x86_64-linux-gnu;/usr/lib/python3.10;/usr/lib/python3.10;/usr/lib/python3/dist-packages;/usr/lib/python3/dist-packages].\n'}
+[0.162273] (cpp_pubsub) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.162369] (cpp_pubsub) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/FindPython3.cmake:490 (include)\n'}
+[0.162465] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/python.cmake:33 (find_package)\n'}
+[0.162561] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/all.cmake:54 (include)\n'}
+[0.162656] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)\n'}
+[0.162752] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[0.162848] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[0.162943] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[0.163037] (cpp_pubsub) StderrLine: {'line': b'  CMakeLists.txt:9 (find_package)\n'}
+[0.163131] (cpp_pubsub) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.163228] (cpp_pubsub) StderrLine: {'line': b'\x1b[0m\n'}
+[0.163322] (cpp_pubsub) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPython/Support.cmake:1837 (list):\n'}
+[0.163419] (cpp_pubsub) StderrLine: {'line': b'  Policy CMP0007 is not set: list command no longer ignores empty elements.\n'}
+[0.163514] (cpp_pubsub) StderrLine: {'line': b'  Run "cmake --help-policy CMP0007" for policy details.  Use the cmake_policy\n'}
+[0.163610] (cpp_pubsub) StderrLine: {'line': b'  command to set the policy and suppress this warning.  List has value =\n'}
+[0.163706] (cpp_pubsub) StderrLine: {'line': b'  [Python;3;10;12;64;;cpython-310-x86_64-linux-gnu;/usr/lib/python3.10;/usr/lib/python3.10;/usr/lib/python3/dist-packages;/usr/lib/python3/dist-packages].\n'}
+[0.163802] (cpp_pubsub) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.163896] (cpp_pubsub) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/FindPython3.cmake:490 (include)\n'}
+[0.163992] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/python.cmake:33 (find_package)\n'}
+[0.164088] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/all.cmake:54 (include)\n'}
+[0.164182] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)\n'}
+[0.164288] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[0.164383] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[0.164477] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[0.164571] (cpp_pubsub) StderrLine: {'line': b'  CMakeLists.txt:9 (find_package)\n'}
+[0.164667] (cpp_pubsub) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.164762] (cpp_pubsub) StderrLine: {'line': b'\x1b[0m\n'}
+[0.164857] (cpp_pubsub) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPython/Support.cmake:1840 (list):\n'}
+[0.165011] (cpp_pubsub) StderrLine: {'line': b'  Policy CMP0007 is not set: list command no longer ignores empty elements.\n'}
+[0.165115] (cpp_pubsub) StderrLine: {'line': b'  Run "cmake --help-policy CMP0007" for policy details.  Use the cmake_policy\n'}
+[0.165210] (cpp_pubsub) StderrLine: {'line': b'  command to set the policy and suppress this warning.  List has value =\n'}
+[0.165306] (cpp_pubsub) StderrLine: {'line': b'  [Python;3;10;12;64;;cpython-310-x86_64-linux-gnu;/usr/lib/python3.10;/usr/lib/python3.10;/usr/lib/python3/dist-packages;/usr/lib/python3/dist-packages].\n'}
+[0.165411] (cpp_pubsub) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.165508] (cpp_pubsub) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/FindPython3.cmake:490 (include)\n'}
+[0.165603] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/python.cmake:33 (find_package)\n'}
+[0.165698] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/all.cmake:54 (include)\n'}
+[0.165816] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)\n'}
+[0.165957] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[0.166057] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[0.166154] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[0.166249] (cpp_pubsub) StderrLine: {'line': b'  CMakeLists.txt:9 (find_package)\n'}
+[0.166344] (cpp_pubsub) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.166438] (cpp_pubsub) StderrLine: {'line': b'\x1b[0m\n'}
+[0.166533] (cpp_pubsub) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPython/Support.cmake:1841 (list):\n'}
+[0.166629] (cpp_pubsub) StderrLine: {'line': b'  Policy CMP0007 is not set: list command no longer ignores empty elements.\n'}
+[0.166724] (cpp_pubsub) StderrLine: {'line': b'  Run "cmake --help-policy CMP0007" for policy details.  Use the cmake_policy\n'}
+[0.166818] (cpp_pubsub) StderrLine: {'line': b'  command to set the policy and suppress this warning.  List has value =\n'}
+[0.166913] (cpp_pubsub) StderrLine: {'line': b'  [Python;3;10;12;64;;cpython-310-x86_64-linux-gnu;/usr/lib/python3.10;/usr/lib/python3.10;/usr/lib/python3/dist-packages;/usr/lib/python3/dist-packages].\n'}
+[0.167027] (cpp_pubsub) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.167121] (cpp_pubsub) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/FindPython3.cmake:490 (include)\n'}
+[0.167216] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/python.cmake:33 (find_package)\n'}
+[0.167311] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/all.cmake:54 (include)\n'}
+[0.167404] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)\n'}
+[0.167506] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[0.167600] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[0.167695] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[0.167789] (cpp_pubsub) StderrLine: {'line': b'  CMakeLists.txt:9 (find_package)\n'}
+[0.167882] (cpp_pubsub) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.167976] (cpp_pubsub) StderrLine: {'line': b'\x1b[0m\n'}
+[0.168070] (cpp_pubsub) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPython/Support.cmake:1843 (list):\n'}
+[0.168164] (cpp_pubsub) StderrLine: {'line': b'  Policy CMP0007 is not set: list command no longer ignores empty elements.\n'}
+[0.168257] (cpp_pubsub) StderrLine: {'line': b'  Run "cmake --help-policy CMP0007" for policy details.  Use the cmake_policy\n'}
+[0.168350] (cpp_pubsub) StderrLine: {'line': b'  command to set the policy and suppress this warning.  List has value =\n'}
+[0.168444] (cpp_pubsub) StderrLine: {'line': b'  [Python;3;10;12;64;;cpython-310-x86_64-linux-gnu;/usr/lib/python3.10;/usr/lib/python3.10;/usr/lib/python3/dist-packages;/usr/lib/python3/dist-packages].\n'}
+[0.168540] (cpp_pubsub) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.168634] (cpp_pubsub) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/FindPython3.cmake:490 (include)\n'}
+[0.168728] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/python.cmake:33 (find_package)\n'}
+[0.168823] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/all.cmake:54 (include)\n'}
+[0.168947] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)\n'}
+[0.169055] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[0.169150] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[0.169247] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[0.169342] (cpp_pubsub) StderrLine: {'line': b'  CMakeLists.txt:9 (find_package)\n'}
+[0.169437] (cpp_pubsub) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.169532] (cpp_pubsub) StderrLine: {'line': b'\x1b[0m\n'}
+[0.169628] (cpp_pubsub) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPython/Support.cmake:1844 (list):\n'}
+[0.169724] (cpp_pubsub) StderrLine: {'line': b'  Policy CMP0007 is not set: list command no longer ignores empty elements.\n'}
+[0.169819] (cpp_pubsub) StderrLine: {'line': b'  Run "cmake --help-policy CMP0007" for policy details.  Use the cmake_policy\n'}
+[0.169914] (cpp_pubsub) StderrLine: {'line': b'  command to set the policy and suppress this warning.  List has value =\n'}
+[0.170009] (cpp_pubsub) StderrLine: {'line': b'  [Python;3;10;12;64;;cpython-310-x86_64-linux-gnu;/usr/lib/python3.10;/usr/lib/python3.10;/usr/lib/python3/dist-packages;/usr/lib/python3/dist-packages].\n'}
+[0.170116] (cpp_pubsub) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.170212] (cpp_pubsub) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/FindPython3.cmake:490 (include)\n'}
+[0.170307] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/python.cmake:33 (find_package)\n'}
+[0.170403] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/all.cmake:54 (include)\n'}
+[0.170497] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)\n'}
+[0.170591] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[0.170695] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[0.170791] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[0.170886] (cpp_pubsub) StderrLine: {'line': b'  CMakeLists.txt:9 (find_package)\n'}
+[0.170982] (cpp_pubsub) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.171077] (cpp_pubsub) StderrLine: {'line': b'\x1b[0m\n'}
+[0.171172] (cpp_pubsub) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPython/Support.cmake:1845 (list):\n'}
+[0.171269] (cpp_pubsub) StderrLine: {'line': b'  Policy CMP0007 is not set: list command no longer ignores empty elements.\n'}
+[0.171366] (cpp_pubsub) StderrLine: {'line': b'  Run "cmake --help-policy CMP0007" for policy details.  Use the cmake_policy\n'}
+[0.171461] (cpp_pubsub) StderrLine: {'line': b'  command to set the policy and suppress this warning.  List has value =\n'}
+[0.171556] (cpp_pubsub) StderrLine: {'line': b'  [Python;3;10;12;64;;cpython-310-x86_64-linux-gnu;/usr/lib/python3.10;/usr/lib/python3.10;/usr/lib/python3/dist-packages;/usr/lib/python3/dist-packages].\n'}
+[0.171653] (cpp_pubsub) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.171749] (cpp_pubsub) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/FindPython3.cmake:490 (include)\n'}
+[0.171845] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/python.cmake:33 (find_package)\n'}
+[0.171941] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/all.cmake:54 (include)\n'}
+[0.172037] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)\n'}
+[0.172142] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[0.172246] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[0.172343] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[0.172439] (cpp_pubsub) StderrLine: {'line': b'  CMakeLists.txt:9 (find_package)\n'}
+[0.172535] (cpp_pubsub) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.172631] (cpp_pubsub) StderrLine: {'line': b'\x1b[0m\n'}
+[0.172727] (cpp_pubsub) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPython/Support.cmake:1846 (list):\n'}
+[0.172823] (cpp_pubsub) StderrLine: {'line': b'  Policy CMP0007 is not set: list command no longer ignores empty elements.\n'}
+[0.172951] (cpp_pubsub) StderrLine: {'line': b'  Run "cmake --help-policy CMP0007" for policy details.  Use the cmake_policy\n'}
+[0.173067] (cpp_pubsub) StderrLine: {'line': b'  command to set the policy and suppress this warning.  List has value =\n'}
+[0.173166] (cpp_pubsub) StderrLine: {'line': b'  [Python;3;10;12;64;;cpython-310-x86_64-linux-gnu;/usr/lib/python3.10;/usr/lib/python3.10;/usr/lib/python3/dist-packages;/usr/lib/python3/dist-packages].\n'}
+[0.173264] (cpp_pubsub) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.173359] (cpp_pubsub) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/FindPython3.cmake:490 (include)\n'}
+[0.173454] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/python.cmake:33 (find_package)\n'}
+[0.173550] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/all.cmake:54 (include)\n'}
+[0.173645] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)\n'}
+[0.173741] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[0.173851] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[0.173947] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[0.174044] (cpp_pubsub) StderrLine: {'line': b'  CMakeLists.txt:9 (find_package)\n'}
+[0.174139] (cpp_pubsub) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.174236] (cpp_pubsub) StderrLine: {'line': b'\x1b[0m\n'}
+[0.174332] (cpp_pubsub) StderrLine: {'line': b'\x1b[31mCMake Error at /usr/share/cmake-3.22/Modules/FindPython/Support.cmake:1846 (list):\n'}
+[0.174429] (cpp_pubsub) StderrLine: {'line': b'  list index: 10 out of range (-10, 9)\n'}
+[0.174526] (cpp_pubsub) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.174622] (cpp_pubsub) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/FindPython3.cmake:490 (include)\n'}
+[0.174717] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/python.cmake:33 (find_package)\n'}
+[0.174813] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/all.cmake:54 (include)\n'}
+[0.174909] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)\n'}
+[0.175014] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[0.175112] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[0.175210] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[0.175308] (cpp_pubsub) StderrLine: {'line': b'  CMakeLists.txt:9 (find_package)\n'}
+[0.175403] (cpp_pubsub) StderrLine: {'line': b'\n'}
+[0.175500] (cpp_pubsub) StderrLine: {'line': b'\x1b[0m\n'}
+[0.198845] (-) TimerEvent: {}
+[0.285090] (cpp_pubsub) StdoutLine: {'line': b'-- Found lifecycle_msgs: 1.2.1 (/opt/ros/humble/share/lifecycle_msgs/cmake)\n'}
+[0.286051] (cpp_pubsub) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/share/ament_cmake_core/cmake/core/normalize_path.cmake:52 (while):\n'}
+[0.286295] (cpp_pubsub) StderrLine: {'line': b'  had incorrect arguments:\n'}
+[0.286480] (cpp_pubsub) StderrLine: {'line': b'\n'}
+[0.286666] (cpp_pubsub) StderrLine: {'line': b'    "TRUE"\n'}
+[0.286902] (cpp_pubsub) StderrLine: {'line': b'\n'}
+[0.287132] (cpp_pubsub) StderrLine: {'line': b'  An argument named "TRUE" appears in a conditional statement.  Policy\n'}
+[0.287326] (cpp_pubsub) StderrLine: {'line': b'  CMP0012 is not set: if() recognizes numbers and boolean constants.  Run\n'}
+[0.287497] (cpp_pubsub) StderrLine: {'line': b'  "cmake --help-policy CMP0012" for policy details.  Use the cmake_policy\n'}
+[0.287674] (cpp_pubsub) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[0.287858] (cpp_pubsub) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.288043] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/normalize_path.cmake:34 (_normalize_path__collapse_redundant)\n'}
+[0.288231] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/lifecycle_msgs/cmake/ament_cmake_export_include_directories-extras.cmake:13 (normalize_path)\n'}
+[0.288416] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/lifecycle_msgs/cmake/lifecycle_msgsConfig.cmake:41 (include)\n'}
+[0.288716] (cpp_pubsub) StderrLine: {'line': b'  CMakeLists.txt:10 (find_package)\n'}
+[0.288945] (cpp_pubsub) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.289141] (cpp_pubsub) StderrLine: {'line': b'\x1b[0m\n'}
+[0.289319] (cpp_pubsub) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/share/ament_cmake_core/cmake/core/normalize_path.cmake:72 (while):\n'}
+[0.289550] (cpp_pubsub) StderrLine: {'line': b'  had incorrect arguments:\n'}
+[0.289734] (cpp_pubsub) StderrLine: {'line': b'\n'}
+[0.289911] (cpp_pubsub) StderrLine: {'line': b'    "TRUE"\n'}
+[0.290068] (cpp_pubsub) StderrLine: {'line': b'\n'}
+[0.290258] (cpp_pubsub) StderrLine: {'line': b'  An argument named "TRUE" appears in a conditional statement.  Policy\n'}
+[0.290433] (cpp_pubsub) StderrLine: {'line': b'  CMP0012 is not set: if() recognizes numbers and boolean constants.  Run\n'}
+[0.290612] (cpp_pubsub) StderrLine: {'line': b'  "cmake --help-policy CMP0012" for policy details.  Use the cmake_policy\n'}
+[0.290808] (cpp_pubsub) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[0.291007] (cpp_pubsub) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.291193] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/normalize_path.cmake:35 (_normalize_path__collapse_uplevel_reference)\n'}
+[0.291365] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/lifecycle_msgs/cmake/ament_cmake_export_include_directories-extras.cmake:13 (normalize_path)\n'}
+[0.291517] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/lifecycle_msgs/cmake/lifecycle_msgsConfig.cmake:41 (include)\n'}
+[0.291720] (cpp_pubsub) StderrLine: {'line': b'  CMakeLists.txt:10 (find_package)\n'}
+[0.291893] (cpp_pubsub) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.292083] (cpp_pubsub) StderrLine: {'line': b'\x1b[0m\n'}
+[0.298935] (-) TimerEvent: {}
+[0.305008] (cpp_pubsub) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/share/ament_cmake_core/cmake/core/normalize_path.cmake:52 (while):\n'}
+[0.305293] (cpp_pubsub) StderrLine: {'line': b'  had incorrect arguments:\n'}
+[0.305499] (cpp_pubsub) StderrLine: {'line': b'\n'}
+[0.305684] (cpp_pubsub) StderrLine: {'line': b'    "TRUE"\n'}
+[0.305870] (cpp_pubsub) StderrLine: {'line': b'\n'}
+[0.306069] (cpp_pubsub) StderrLine: {'line': b'  An argument named "TRUE" appears in a conditional statement.  Policy\n'}
+[0.306294] (cpp_pubsub) StderrLine: {'line': b'  CMP0012 is not set: if() recognizes numbers and boolean constants.  Run\n'}
+[0.306511] (cpp_pubsub) StderrLine: {'line': b'  "cmake --help-policy CMP0012" for policy details.  Use the cmake_policy\n'}
+[0.306746] (cpp_pubsub) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[0.306973] (cpp_pubsub) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.307165] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/normalize_path.cmake:34 (_normalize_path__collapse_redundant)\n'}
+[0.307334] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/rcutils/cmake/ament_cmake_export_include_directories-extras.cmake:13 (normalize_path)\n'}
+[0.307562] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/rcutils/cmake/rcutilsConfig.cmake:41 (include)\n'}
+[0.307788] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_runtime_c/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.308014] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_runtime_c/cmake/rosidl_runtime_cConfig.cmake:41 (include)\n'}
+[0.308240] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/lifecycle_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.308448] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/lifecycle_msgs/cmake/lifecycle_msgsConfig.cmake:41 (include)\n'}
+[0.308659] (cpp_pubsub) StderrLine: {'line': b'  CMakeLists.txt:10 (find_package)\n'}
+[0.308882] (cpp_pubsub) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.309125] (cpp_pubsub) StderrLine: {'line': b'\x1b[0m\n'}
+[0.309344] (cpp_pubsub) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/share/ament_cmake_core/cmake/core/normalize_path.cmake:72 (while):\n'}
+[0.309544] (cpp_pubsub) StderrLine: {'line': b'  had incorrect arguments:\n'}
+[0.309720] (cpp_pubsub) StderrLine: {'line': b'\n'}
+[0.309881] (cpp_pubsub) StderrLine: {'line': b'    "TRUE"\n'}
+[0.310044] (cpp_pubsub) StderrLine: {'line': b'\n'}
+[0.310217] (cpp_pubsub) StderrLine: {'line': b'  An argument named "TRUE" appears in a conditional statement.  Policy\n'}
+[0.310389] (cpp_pubsub) StderrLine: {'line': b'  CMP0012 is not set: if() recognizes numbers and boolean constants.  Run\n'}
+[0.310563] (cpp_pubsub) StderrLine: {'line': b'  "cmake --help-policy CMP0012" for policy details.  Use the cmake_policy\n'}
+[0.310719] (cpp_pubsub) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[0.310915] (cpp_pubsub) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.311139] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/normalize_path.cmake:35 (_normalize_path__collapse_uplevel_reference)\n'}
+[0.311319] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/rcutils/cmake/ament_cmake_export_include_directories-extras.cmake:13 (normalize_path)\n'}
+[0.311494] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/rcutils/cmake/rcutilsConfig.cmake:41 (include)\n'}
+[0.311718] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_runtime_c/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.311942] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_runtime_c/cmake/rosidl_runtime_cConfig.cmake:41 (include)\n'}
+[0.312164] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/lifecycle_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.312386] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/lifecycle_msgs/cmake/lifecycle_msgsConfig.cmake:41 (include)\n'}
+[0.312579] (cpp_pubsub) StderrLine: {'line': b'  CMakeLists.txt:10 (find_package)\n'}
+[0.312801] (cpp_pubsub) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.313042] (cpp_pubsub) StderrLine: {'line': b'\x1b[0m\n'}
+[0.322423] (cpp_pubsub) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/share/ament_cmake_core/cmake/core/list_append_unique.cmake:30 (if):\n'}
+[0.322942] (cpp_pubsub) StderrLine: {'line': b'  Policy CMP0057 is not set: Support new IN_LIST if() operator.  Run "cmake\n'}
+[0.323146] (cpp_pubsub) StderrLine: {'line': b'  --help-policy CMP0057" for policy details.  Use the cmake_policy command to\n'}
+[0.323317] (cpp_pubsub) StderrLine: {'line': b'  set the policy and suppress this warning.\n'}
+[0.323484] (cpp_pubsub) StderrLine: {'line': b'\n'}
+[0.323649] (cpp_pubsub) StderrLine: {'line': b'  IN_LIST will be interpreted as an operator when the policy is set to NEW.\n'}
+[0.323816] (cpp_pubsub) StderrLine: {'line': b'  Since the policy is not set the OLD behavior will be used.\n'}
+[0.323986] (cpp_pubsub) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.324172] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/rcutils/cmake/ament_cmake_export_dependencies-extras.cmake:84 (list_append_unique)\n'}
+[0.324344] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/rcutils/cmake/rcutilsConfig.cmake:41 (include)\n'}
+[0.324509] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_runtime_c/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.324675] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_runtime_c/cmake/rosidl_runtime_cConfig.cmake:41 (include)\n'}
+[0.324855] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/lifecycle_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.325080] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/lifecycle_msgs/cmake/lifecycle_msgsConfig.cmake:41 (include)\n'}
+[0.325251] (cpp_pubsub) StderrLine: {'line': b'  CMakeLists.txt:10 (find_package)\n'}
+[0.325410] (cpp_pubsub) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.325569] (cpp_pubsub) StderrLine: {'line': b'\x1b[0m\n'}
+[0.325777] (cpp_pubsub) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/list_append_unique.cmake:30 (if):\n'}
+[0.325904] (cpp_pubsub) StderrLine: {'line': b'  if given arguments:\n'}
+[0.326005] (cpp_pubsub) StderrLine: {'line': b'\n'}
+[0.326105] (cpp_pubsub) StderrLine: {'line': b'    "NOT" "element" "IN_LIST" "rcutils_RECURSIVE_DEPENDENCIES"\n'}
+[0.326202] (cpp_pubsub) StderrLine: {'line': b'\n'}
+[0.326299] (cpp_pubsub) StderrLine: {'line': b'  Unknown arguments specified\n'}
+[0.326397] (cpp_pubsub) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.326508] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/rcutils/cmake/ament_cmake_export_dependencies-extras.cmake:84 (list_append_unique)\n'}
+[0.326607] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/rcutils/cmake/rcutilsConfig.cmake:41 (include)\n'}
+[0.326784] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_runtime_c/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.326884] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_runtime_c/cmake/rosidl_runtime_cConfig.cmake:41 (include)\n'}
+[0.326982] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/lifecycle_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.327097] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/lifecycle_msgs/cmake/lifecycle_msgsConfig.cmake:41 (include)\n'}
+[0.327198] (cpp_pubsub) StderrLine: {'line': b'  CMakeLists.txt:10 (find_package)\n'}
+[0.327296] (cpp_pubsub) StderrLine: {'line': b'\n'}
+[0.327394] (cpp_pubsub) StderrLine: {'line': b'\x1b[0m\n'}
+[0.327492] (cpp_pubsub) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.327604] (cpp_pubsub) StdoutLine: {'line': b'See also "/home/sameer/cpp_files/ros2_cpp/build/cpp_pubsub/CMakeFiles/CMakeOutput.log".\n'}
+[0.331571] (cpp_pubsub) CommandEnded: {'returncode': 1}
+[0.367852] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 1}
+[0.379729] (-) EventReactorShutdown: {}

@@ -1,0 +1,29 @@
+[0.017s] Invoking command in '/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/build/cpp_pubsub': CMAKE_PREFIX_PATH=/home/sameer/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/build/cpp_pubsub -- -j4 -l4
+[0.118s] [ 22%] Built target gtest_main
+[0.119s] [ 44%] Built target gtest
+[0.176s] [ 55%] [32mBuilding CXX object CMakeFiles/pubsub_test.dir/src/single_thread_spinner.cpp.o[0m
+[4.325s] [01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/single_thread_spinner.cpp:[m[K In member function ‘[01m[Kbool cpp_pubsub::SingleThreadSpinner::add_node(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr)[m[K’:
+[4.325s] [01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/single_thread_spinner.cpp:13:5:[m[K [01;31m[Kerror: [m[K‘[01m[Knodes_[m[K’ was not declared in this scope; did you mean ‘[01m[Knode[m[K’?
+[4.325s]    13 |     [01;31m[Knodes_[m[K.push_back(node);
+[4.325s]       |     [01;31m[K^~~~~~[m[K
+[4.325s]       |     [32m[Knode[m[K
+[4.333s] [01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/single_thread_spinner.cpp:[m[K In member function ‘[01m[Kbool cpp_pubsub::SingleThreadSpinner::spin_some_all_nodes()[m[K’:
+[4.333s] [01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/single_thread_spinner.cpp:18:9:[m[K [01;31m[Kerror: [m[K‘[01m[Knodes_[m[K’ was not declared in this scope
+[4.334s]    18 |     if ([01;31m[Knodes_[m[K.empty()) {
+[4.334s]       |         [01;31m[K^~~~~~[m[K
+[4.341s] [01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/single_thread_spinner.cpp:22:23:[m[K [01;31m[Kerror: [m[K‘[01m[Knodes_[m[K’ was not declared in this scope; did you mean ‘[01m[Knode[m[K’?
+[4.342s]    22 |     for (auto &node : [01;31m[Knodes_[m[K) {
+[4.342s]       |                       [01;31m[K^~~~~~[m[K
+[4.342s]       |                       [32m[Knode[m[K
+[4.342s] [01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/single_thread_spinner.cpp:23:28:[m[K [01;31m[Kerror: [m[K‘[01m[KSingleThreadExecutor[m[K’ is not a member of ‘[01m[Krclcpp::executors[m[K’; did you mean ‘[01m[KSingleThreadedExecutor[m[K’?
+[4.342s]    23 |         rclcpp::executors::[01;31m[KSingleThreadExecutor[m[K executor;
+[4.342s]       |                            [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[4.343s]       |                            [32m[KSingleThreadedExecutor[m[K
+[4.350s] [01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/single_thread_spinner.cpp:24:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kexecutor[m[K’ was not declared in this scope; did you mean ‘[01m[KExecutor[m[K’?
+[4.350s]    24 |         [01;31m[Kexecutor[m[K.add_node(node);
+[4.350s]       |         [01;31m[K^~~~~~~~[m[K
+[4.350s]       |         [32m[KExecutor[m[K
+[5.050s] gmake[2]: *** [CMakeFiles/pubsub_test.dir/build.make:118: CMakeFiles/pubsub_test.dir/src/single_thread_spinner.cpp.o] Error 1
+[5.050s] gmake[1]: *** [CMakeFiles/Makefile2:156: CMakeFiles/pubsub_test.dir/all] Error 2
+[5.051s] gmake: *** [Makefile:146: all] Error 2
+[5.054s] Invoked command in '/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=/home/sameer/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/build/cpp_pubsub -- -j4 -l4

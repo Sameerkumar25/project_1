@@ -1,0 +1,171 @@
+[0.000000] (-) TimerEvent: {}
+[0.000458] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict()}
+[0.000575] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.098926] (-) TimerEvent: {}
+[0.175797] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.199231] (-) TimerEvent: {}
+[0.210404] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[0.216266] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/build/cpp_pubsub', '--', '-j4', '-l4'], 'cwd': '/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/build/cpp_pubsub', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'sameer'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sameer'), ('OLDPWD', '/home/sameer/cpp_files/ros2_cpp/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1411'), ('SYSTEMD_EXEC_PID', '1708'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '14891'), ('COLCON_PREFIX_PATH', '/home/sameer/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'sameer'), ('JOURNAL_STREAM', '8:30991'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sameer'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/sameer/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sameer:@/tmp/.ICE-unix/1685,unix/sameer:/tmp/.ICE-unix/1685'), ('INVOCATION_ID', '304964dab8a740eaa42fb4108af4ef14'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sameer/ros2_ws/install/my_robot_controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:6cc5f022-288e-4a5a-b90c-617c4ef93cbd'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/build/cpp_pubsub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sameer/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sameer/ros2_ws/install/my_robot_controller:/opt/ros/humble')]), 'shell': False}
+[0.299454] (-) TimerEvent: {}
+[0.400394] (-) TimerEvent: {}
+[0.501439] (-) TimerEvent: {}
+[0.602329] (-) TimerEvent: {}
+[0.703852] (-) TimerEvent: {}
+[0.804973] (-) TimerEvent: {}
+[0.906172] (-) TimerEvent: {}
+[1.007420] (-) TimerEvent: {}
+[1.108558] (-) TimerEvent: {}
+[1.209452] (-) TimerEvent: {}
+[1.309941] (-) TimerEvent: {}
+[1.410944] (-) TimerEvent: {}
+[1.511925] (-) TimerEvent: {}
+[1.613068] (-) TimerEvent: {}
+[1.714119] (-) TimerEvent: {}
+[1.814508] (-) TimerEvent: {}
+[1.909472] (cpp_pubsub) StdoutLine: {'line': b'[ 22%] Built target gtest_main\n'}
+[1.909835] (cpp_pubsub) StdoutLine: {'line': b'[ 44%] Built target gtest\n'}
+[1.914903] (-) TimerEvent: {}
+[2.015465] (-) TimerEvent: {}
+[2.061753] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target pubsub_test\x1b[0m\n'}
+[2.115624] (-) TimerEvent: {}
+[2.216146] (-) TimerEvent: {}
+[2.292314] (cpp_pubsub) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/pubsub_test.dir/src/single_thread_spinner.cpp.o\x1b[0m\n'}
+[2.316322] (-) TimerEvent: {}
+[2.416858] (-) TimerEvent: {}
+[2.518134] (-) TimerEvent: {}
+[2.619284] (-) TimerEvent: {}
+[2.720402] (-) TimerEvent: {}
+[2.821585] (-) TimerEvent: {}
+[2.922600] (-) TimerEvent: {}
+[3.023603] (-) TimerEvent: {}
+[3.124753] (-) TimerEvent: {}
+[3.225995] (-) TimerEvent: {}
+[3.326879] (-) TimerEvent: {}
+[3.427587] (-) TimerEvent: {}
+[3.528792] (-) TimerEvent: {}
+[3.629788] (-) TimerEvent: {}
+[3.730719] (-) TimerEvent: {}
+[3.831276] (-) TimerEvent: {}
+[3.932469] (-) TimerEvent: {}
+[4.033333] (-) TimerEvent: {}
+[4.133900] (-) TimerEvent: {}
+[4.234708] (-) TimerEvent: {}
+[4.335885] (-) TimerEvent: {}
+[4.436745] (-) TimerEvent: {}
+[4.537504] (-) TimerEvent: {}
+[4.638489] (-) TimerEvent: {}
+[4.739406] (-) TimerEvent: {}
+[4.839845] (-) TimerEvent: {}
+[4.940697] (-) TimerEvent: {}
+[5.041734] (-) TimerEvent: {}
+[5.142803] (-) TimerEvent: {}
+[5.244441] (-) TimerEvent: {}
+[5.346146] (-) TimerEvent: {}
+[5.447575] (-) TimerEvent: {}
+[5.548606] (-) TimerEvent: {}
+[5.649953] (-) TimerEvent: {}
+[5.751394] (-) TimerEvent: {}
+[5.852407] (-) TimerEvent: {}
+[5.953571] (-) TimerEvent: {}
+[6.053909] (-) TimerEvent: {}
+[6.154919] (-) TimerEvent: {}
+[6.256474] (-) TimerEvent: {}
+[6.357502] (-) TimerEvent: {}
+[6.457949] (-) TimerEvent: {}
+[6.558560] (-) TimerEvent: {}
+[6.659672] (-) TimerEvent: {}
+[6.760894] (-) TimerEvent: {}
+[6.862057] (-) TimerEvent: {}
+[6.962835] (-) TimerEvent: {}
+[7.063228] (-) TimerEvent: {}
+[7.163748] (-) TimerEvent: {}
+[7.264308] (-) TimerEvent: {}
+[7.365749] (-) TimerEvent: {}
+[7.466066] (-) TimerEvent: {}
+[7.566619] (-) TimerEvent: {}
+[7.667590] (-) TimerEvent: {}
+[7.768494] (-) TimerEvent: {}
+[7.869351] (-) TimerEvent: {}
+[7.970037] (-) TimerEvent: {}
+[8.070677] (-) TimerEvent: {}
+[8.171680] (-) TimerEvent: {}
+[8.272388] (-) TimerEvent: {}
+[8.373488] (-) TimerEvent: {}
+[8.473893] (-) TimerEvent: {}
+[8.574313] (-) TimerEvent: {}
+[8.674759] (-) TimerEvent: {}
+[8.775298] (-) TimerEvent: {}
+[8.875993] (-) TimerEvent: {}
+[8.976333] (-) TimerEvent: {}
+[9.076666] (-) TimerEvent: {}
+[9.177006] (-) TimerEvent: {}
+[9.277418] (-) TimerEvent: {}
+[9.377747] (-) TimerEvent: {}
+[9.478083] (-) TimerEvent: {}
+[9.578420] (-) TimerEvent: {}
+[9.678820] (-) TimerEvent: {}
+[9.779145] (-) TimerEvent: {}
+[9.879461] (-) TimerEvent: {}
+[9.979799] (-) TimerEvent: {}
+[10.080194] (-) TimerEvent: {}
+[10.180557] (-) TimerEvent: {}
+[10.280957] (-) TimerEvent: {}
+[10.381323] (-) TimerEvent: {}
+[10.481747] (-) TimerEvent: {}
+[10.582119] (-) TimerEvent: {}
+[10.682484] (-) TimerEvent: {}
+[10.782803] (-) TimerEvent: {}
+[10.883153] (-) TimerEvent: {}
+[10.983519] (-) TimerEvent: {}
+[11.084011] (-) TimerEvent: {}
+[11.184620] (-) TimerEvent: {}
+[11.285294] (-) TimerEvent: {}
+[11.385708] (-) TimerEvent: {}
+[11.486169] (-) TimerEvent: {}
+[11.586539] (-) TimerEvent: {}
+[11.686961] (-) TimerEvent: {}
+[11.787456] (-) TimerEvent: {}
+[11.888067] (-) TimerEvent: {}
+[11.988588] (-) TimerEvent: {}
+[12.089613] (-) TimerEvent: {}
+[12.191014] (-) TimerEvent: {}
+[12.291945] (-) TimerEvent: {}
+[12.392472] (-) TimerEvent: {}
+[12.493890] (-) TimerEvent: {}
+[12.594941] (-) TimerEvent: {}
+[12.695786] (-) TimerEvent: {}
+[12.796218] (-) TimerEvent: {}
+[12.896769] (-) TimerEvent: {}
+[12.997190] (-) TimerEvent: {}
+[13.097613] (-) TimerEvent: {}
+[13.106113] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/single_thread_spinner.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool cpp_pubsub::SingleThreadSpinner::spin_some_all_nodes()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.106530] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/single_thread_spinner.cpp:124:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kqualified-id in declaration before \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[13.106795] (cpp_pubsub) StderrLine: {'line': b'  124 |         void SingleThreadSpinner::spin_all_nodes_\x1b[01;31m\x1b[K(\x1b[m\x1b[K)\n'}
+[13.106925] (cpp_pubsub) StderrLine: {'line': b'      |                                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[13.197793] (-) TimerEvent: {}
+[13.298265] (-) TimerEvent: {}
+[13.399234] (-) TimerEvent: {}
+[13.499729] (-) TimerEvent: {}
+[13.601005] (-) TimerEvent: {}
+[13.702139] (-) TimerEvent: {}
+[13.802517] (-) TimerEvent: {}
+[13.902851] (-) TimerEvent: {}
+[14.003238] (-) TimerEvent: {}
+[14.103636] (-) TimerEvent: {}
+[14.204279] (-) TimerEvent: {}
+[14.304604] (-) TimerEvent: {}
+[14.404990] (-) TimerEvent: {}
+[14.505367] (-) TimerEvent: {}
+[14.605891] (-) TimerEvent: {}
+[14.695771] (cpp_pubsub) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/pubsub_test.dir/build.make:118: CMakeFiles/pubsub_test.dir/src/single_thread_spinner.cpp.o] Error 1\n'}
+[14.696179] (cpp_pubsub) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:156: CMakeFiles/pubsub_test.dir/all] Error 2\n'}
+[14.696625] (cpp_pubsub) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[14.700171] (cpp_pubsub) CommandEnded: {'returncode': 2}
+[14.706028] (-) TimerEvent: {}
+[14.806412] (-) TimerEvent: {}
+[14.907359] (-) TimerEvent: {}
+[15.008476] (-) TimerEvent: {}
+[15.109502] (-) TimerEvent: {}
+[15.210609] (-) TimerEvent: {}
+[15.229994] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 2}
+[15.242267] (-) EventReactorShutdown: {}

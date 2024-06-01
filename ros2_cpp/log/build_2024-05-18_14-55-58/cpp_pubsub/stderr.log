@@ -1,0 +1,4 @@
+[31mCMake Error at CMakeLists.txt:20 (include_directoriries):
+  Unknown CMake command "include_directoriries".
+
+[0m

@@ -1,0 +1,13 @@
+[01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/publisher_member_function.cpp:[m[K In constructor ‘[01m[Kcpp_pubsub::MinimalPublisher::MinimalPublisher()[m[K’:
+[01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/publisher_member_function.cpp:18:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kv_data[m[K’ was not declared in this scope; did you mean ‘[01m[Kdata[m[K’?
+   18 |         std::getline(std::cin, [01;31m[Kv_data[m[K);
+      |                                [01;31m[K^~~~~~[m[K
+      |                                [32m[Kdata[m[K
+[01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kvoid cpp_pubsub::MinimalPublisher::timer_callback()[m[K’:
+[01m[K/home/sameer/cpp_files/ros2_cpp/src/cpp_pubsub/src/publisher_member_function.cpp:28:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kv_data[m[K’ was not declared in this scope; did you mean ‘[01m[Kdata[m[K’?
+   28 |         message.data = [01;31m[Kv_data[m[K+ std::to_string(count_++);
+      |                        [01;31m[K^~~~~~[m[K
+      |                        [32m[Kdata[m[K
+gmake[2]: *** [CMakeFiles/pubsub_test.dir/build.make:90: CMakeFiles/pubsub_test.dir/src/publisher_member_function.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:156: CMakeFiles/pubsub_test.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
